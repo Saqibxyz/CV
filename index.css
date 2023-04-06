@@ -155,7 +155,7 @@ html, body {
 		stroke-dasharray: 0 100;
 	}
 }
-@media (max-width: 1200px) {
+@media (max-width: 1090px) {
 	#name {
 		top: 20%;
 	}
