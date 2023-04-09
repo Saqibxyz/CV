@@ -155,12 +155,12 @@ html, body {
 		stroke-dasharray: 0 100;
 	}
 }
-@media (max-width: 800px) {
+@media (max-width: 1081px) {
 	#name {
-		top: 30%;
+		top: 20%;
 	}
 }
-@media (min-width: 800px) {
+@media (min-width: 1082px) {
 	#name {
 		top: 50%;
 	}
