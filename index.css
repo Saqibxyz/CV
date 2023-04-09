@@ -86,7 +86,7 @@ html, body {
 	font-weight: bold;
 	border: 3px solid #f1f1f1;
 	position: absolute;
-	top:20%;
+	top:250px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 2;
@@ -155,14 +155,6 @@ html, body {
 		stroke-dasharray: 0 100;
 	}
 }
-@media (max-width: 480px) {
-	#name {
-		top: 20%;
-	}
-}
-@media (min-width: 481px) {
-	#name {
-		top: 50%;
-	}
-}
+
+
 
