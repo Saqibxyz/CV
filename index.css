@@ -86,7 +86,7 @@ html, body {
 	font-weight: bold;
 	border: 3px solid #f1f1f1;
 	position: absolute;
-	top: 50%;
+	top:20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 2;
@@ -98,7 +98,7 @@ html, body {
 	background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
-	height: 700px;
+	height: 600px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
