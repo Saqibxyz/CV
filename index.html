@@ -2,363 +2,174 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		 
-		<title>Portfolio</title>
-		<link rel="stylesheet" href="index.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfoloi</title>
 		<link
-			href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
 			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
 			crossorigin="anonymous"
 		/>
-		
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
-			rel="stylesheet"
-		/>
-		
-		<link
-			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
-			rel="stylesheet"
-		/>
+		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body id="body">
-		<div class="name"></div>
-		<div id="name">
-			<h1 id="MyName">Saqib Ayoub</h1>
-			<h3 id="MyName" class="Main">Full Stack Developer</h3>
+		<div class="navigation">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#about"
+        ><button class="btn btn-outline-dark">Home</button></a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#skills"><button class="btn btn-outline-dark">Skills</button></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#projects"><button class="btn btn-outline-dark">Projects</button></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#work"><button class="btn btn-outline-dark">Work Experience</button></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#education"><button class="btn btn-outline-dark">Education</button></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#test"><button class="btn btn-outline-dark">Testimonials</button></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#personal"><button class="btn btn-outline-dark">Personal Development</button></a>
+    </li>
+  </ul>
+</div>
+		<section id="about1">
+			<div id="about">
+				<div class="justify-content-center name-details">
+					<h3>Hi, my name is</h3>
+					<h2 class="name">
+						<i class="neon-blue">Saqib Ayoub</i>
+						<h2>
+							<h4>I am a</h4>
+				</div>
+					<h2>
+						 <i class="neon-red"><h3 class="typing" id="typing"></h3></h3></i> </h2>
+				<video id="background-video" autoplay loop muted>
+					<source src="project.mp4" type="video/mp4" />
+				</video>
+			</div>
+		</section>
+		<section id="skills1">
+			<div id="skills">
+				<h1 class="skill">Skills</h1>
+				<div class="content"></div>
+			</div>
+		</section>
+		<div id="cursor">
+			<img
+				alt="Cursor Hand"
+				src="https://static.wixstatic.com/media/2d89eb_f05aaa37b2a64ca2a607b0a903d8ad30~mv2.png/v1/fill/w_68,h_106/rocket-cursor.png"
+			/>
 		</div>
-		<div class="qualifications">
-			<h1 class="qual">Qualifications</h1>
-			<ol class="data">
-				<li>
-					<h1 class="middle">10th</h1>
-					<ul class="details">
-						<li>
-							School :
-							<a
-								href="https://m.facebook.com/profile.php?id=100080035634681"
-								class="link"
-							>
-								Government Higher secondary School Malwan.</a
-							>
-						</li>
-						<li>percentage : 79.6%</li>
-					</ul>
-				</li>
-				<li>
-					<h1 class="higher">12th</h1>
-					<ul class="details">
-						<li>
-							School :
-							<a
-								href="https://m.facebook.com/profile.php?id=100080035634681"
-								class="link"
-							>
-								Government Higher secondary School Malwan.</a
-							>
-						</li>
-						<li>percentage : 76%</li>
-					</ul>
-				</li>
-				<li>
-					<h1 class="higher">Btech</h1>
-					<ul class="details">
-						<li>
-							College :<a href="https://nitsri.ac.in/" class="link">
-								National Institute of Technology Srinagar.</a
-							>
-						</li>
-						<li>Semester : 4th</li>
-						<li>CGPA : 8.10</li>
-					</ul>
-				</li>
-			</ol>
-		</div>
-		<div class="skills">
-			<h1 class="tempskill">Skills</h1>
-			<section>
-				<div class="cpp">
-					<h2>C++</h2>
-					<svg
-						class="circle-chart"
-						viewbox="0 0 33.83098862 33.83098862"
-						width="200"
-						height="200"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<circle
-							class="circle-chart__background show"
-							stroke="blue"
-							stroke-width="1"
-							stroke-dasharray="90,10"
-							fill="none"
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<circle
-							class="circle-chart__circle"
-							stroke="white"
-							stroke-width="1"
-							stroke-dasharray="90,10"
-							stroke-linecap="round"
-							fill=""
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<g class="circle-chart__info">
-							<text
-								class="circle-chart__percent"
-								x="16.91549431"
-								y="15.5"
-								alignment-baseline="central"
-								fill="white"
-								text-anchor="middle"
-								font-size="8"
-							>
-								90%
-							</text>
-						</g>
-					</svg>
+		<section id="projects1">
+			<div class="projects" id="projects">
+				<h2 class="skill">Projects</h2>
+				<h2 id="comming">Coming Soon...</h2>
+				<div class="spinner-box">
+					<div class="leo-border-1">
+						<div class="leo-core-1"></div>
+					</div>
+					<div class="leo-border-2">
+						<div class="leo-core-2"></div>
+					</div>
 				</div>
-				<div class="front-end">
-					<h2>Front-End</h2>
-					<svg
-						class="circle-chart"
-						viewbox="0 0 33.83098862 33.83098862"
-						width="200"
-						height="200"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<circle
-							class="circle-chart__background show"
-							stroke="green"
-							stroke-width="1"
-							stroke-dasharray="87,13"
-							fill="none"
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<circle
-							class="circle-chart__circle"
-							stroke="yellow"
-							stroke-width="1"
-							stroke-dasharray="87,13"
-							stroke-linecap="round"
-							fill=""
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<g class="circle-chart__info">
-							<text
-								class="circle-chart__percent"
-								x="16.91549431"
-								y="15.5"
-								alignment-baseline="central"
-								fill="white"
-								text-anchor="middle"
-								font-size="8"
-							>
-								87%
-							</text>
-						</g>
-					</svg>
-				</div>
-				<div class="backend">
-					<h2>Back-End</h2>
-					<svg
-						class="circle-chart"
-						viewbox="0 0 33.83098862 33.83098862"
-						width="200"
-						height="200"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<circle
-							class="circle-chart__background show"
-							stroke="orange"
-							stroke-width="1"
-							fill="none"
-							stroke-dasharray="85,15"
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<circle
-							class="circle-chart__circle"
-							stroke="blue"
-							stroke-width="1"
-							stroke-dasharray="85,15"
-							stroke-linecap="round"
-							fill=""
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<g class="circle-chart__info">
-							<text
-								class="circle-chart__percent"
-								x="16.91549431"
-								y="15.5"
-								alignment-baseline="central"
-								fill="white"
-								text-anchor="middle"
-								font-size="8"
-							>
-								85%
-							</text>
-						</g>
-					</svg>
-				</div>
-				<div class="java">
-					<h2>Java</h2>
-					<svg
-						class="circle-chart"
-						viewbox="0 0 33.83098862 33.83098862"
-						width="200"
-						height="200"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<circle
-							class="circle-chart__background show"
-							stroke="yellow"
-							stroke-width="1"
-							stroke-dasharray="75,25"
-							fill="none"
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<circle
-							class="circle-chart__circle"
-							stroke="red"
-							stroke-width="1"
-							stroke-dasharray="75,25"
-							stroke-linecap="round"
-							fill=""
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<g class="circle-chart__info">
-							<text
-								class="circle-chart__percent"
-								x="16.91549431"
-								y="15.5"
-								alignment-baseline="central"
-								fill="white"
-								text-anchor="middle"
-								font-size="8"
-							>
-								75%
-							</text>
-						</g>
-					</svg>
-				</div>
-				<div class="python">
-					<h2>Python</h2>
-					<svg
-						class="circle-chart"
-						viewbox="0 0 33.83098862 33.83098862"
-						width="200"
-						height="200"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<circle
-							class="circle-chart__background show"
-							stroke="#964B00"
-							stroke-width="1"
-							stroke-width="2"
-							stroke-dasharray="57,43"
-							fill="none"
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<circle
-							class="circle-chart__circle"
-							stroke="rgb(0, 214, 214)"
-							stroke-width="1"
-							stroke-dasharray="57,43"
-							stroke-linecap="round"
-							fill=""
-							cx="16.91549431"
-							cy="16.91549431"
-							r="15.91549431"
-						/>
-						<g class="circle-chart__info">
-							<text
-								class="circle-chart__percent"
-								x="16.91549431"
-								y="15.5"
-								alignment-baseline="central"
-								fill="white"
-								text-anchor="middle"
-								font-size="8"
-							>
-								57%
-							</text>
-						</g>
-					</svg>
-				</div>
-			</section>
-		</div>
-		<div class="contact">
-			<h1 class="contact-me">Follow Me</h1>
-			<a href="https://www.facebook.com/profile.php?id=100087892404550"
-				><img src="facebook.png" alt="facebook" class="social"
-			/></a>
-			<a href="https://twitter.com/SaqibAh81069325"
-				><img src="twitter.png" alt="twitter" class="social"
-			/></a>
-			<a href="https://www.instagram.com/saqib_ayoub_xy/"
-				><img src="instagram.png" alt="instagram" class="social"
-			/></a>
-			<a href="mailto: saqibtelixy@gmail.com">
-				<h1 id="mail">
-					<button class="btn btn-outline-light">
-						Contact <svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="16"
-							fill="currentColor"
-							class="bi bi-envelope"
-							viewBox="0 0 16 16"
-						>
-							<path
-								d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
-							/></svg
-						>
-					</button>
-				</h1>
-			</a>
-		</div>
+			</div>
+		</section>
+		<section id="work1">
+			<div class="work" id="work">
+				<h2 class="skill experience">Work Experience</h2>
+				<h2 id="comming">Coming Soon...</h2>
+			</div>
+		</section>
+		<section id="education1">
+			<div class="education" id="education">
+					<h2 class="skill edu">Education</h2>
+					<div class="edu-det">
+<h2 class="study-at "><a href="http://gdckulgam.edu.in/Files/f07ef270-7e91-4716-8825-2966f17cc0f7/Event/4d9e4681-ad96-4004-adc3-d30638bea815.jpg" class="link-info">GMS School Malwan:</a></h2>
+<ul>
+	<li class="study">Primary and Upper Primary Education</li>
+	<h5>Skills Learnt:</h5>
+				<li class="study">	Communication: Became good at expressing ideas clearly.</li>
+				<li class="study">Time Management: Learned to manage time effectively for better academic performance.</p>
+</ul>
+<h2 class="study-at"><a href="https://www.facebook.com/photo/?fbid=110563964919748&set=pb.100080035634681.-2207520000." class="link-info">GHSS Malwan:</a></h2>
+<ul>
+	<li class="study">Secondary and Higher Secondary Education</li>
+	<h5>Skills Learnt:</h5>
+<li class="study">Leadership: Developed leadership abilities in guiding teams and organizing events.</li>
+<li class="study">Interpersonal Skills: Improved people skills, fostering positive relationships with others.</p></li>
+</ul>
+<h2 class="study-at"><a href="https://www.nitsri.ac.in/Pages/CampusTour.aspx" class="link-info">NIT Srinagar:</a></h2>
+<ul>
+	<li class="study">Current Pursuit:<br>
+Bachelor of Technology (B.Tech)</li>
+<h5>Skills Learnt:</h5>
+<li class="study">Coding: Gained proficiency in computer programming.</li>
+<li class="study">Problem Solving: Learned to solve problems effectively using analytical thinking</li>
+</ul>
+					</div>
+			</div>
+		</section>
+		<section id="test">
+			<h4 class="skill tst">Testimonials</h4>
+<div class="container">
+<section id="testim" class="testim">
+         <div class="testim-cover">
+            <div class="wrap">
+                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                <ul id="testim-dots" class="dots">
+                    <li class="dot active"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                </ul>
+                <div id="testim-content" class="cont">
+                    <div class="active">
+                        <div class="img"><img src="https://img.freepik.com/free-vector/cute-happy-smiling-child-isolated-white-background_1308-33482.jpg?size=626&ext=jpg" alt=""></div>
+                        <h2>Lorem P. Ipsum</h2>
+                        <p id="p" class="font-weight-light font-italic"><q><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</em></q></p>                    
+                    </div>
+                    <div>
+                        <div class="img"><img src="https://img.freepik.com/premium-photo/fun-cartoon-kid-with-rain-gear_183364-63948.jpg?size=626&ext=jpg" alt=""></div>
+                        <h2>Mr. Lorem Ipsum</h2>
+                        <p id="p" class="font-weight-light font-italic"><q><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</em></q></p>                    
+                    </div>
+                    <div>
+                        <div class="img"><img src="https://img.freepik.com/free-photo/fun-3d-illustration-cartoon-teenage-girl-with-rain-gear_183364-80088.jpg?size=626&ext=jpg" alt=""></div>
+                        <h2>Lorem Ipsum</h2>
+                        <p id="p" class="font-weight-light font-italic"><q><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</em></q></p>                    
+                    </div>
+                    <div>
+                        <div class="img"><img src="https://img.freepik.com/free-vector/boy-standing-cheer-white-background_1308-93949.jpg?size=626&ext=jpg" alt=""></div>
+                        <h2>Lorem De Ipsum</h2>
+                        <p id="p" class="font-weight-light font-italic"><q><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</em></q></p>                    
+                    </div>
+                    <div>
+                        <div class="img"><img src="https://img.freepik.com/free-vector/little-boy-waving-hand_1308-20640.jpg?size=626&ext=jpg&ga=GA1.2.1891996031.1689961531&semt=ais" alt=""></div>
+                        <h2>Ms. Lorem R. Ipsum</h2>
+                        <p id="p" class="font-weight-light font-italic"><q><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.<em></q></p>                    
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+</div>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+		<script src="index.js"></script>
 		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
 			crossorigin="anonymous"
 		></script>
-		<script src="index.js"></script>
 	</body>
 </html>
