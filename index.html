@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portfolio</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
@@ -12,13 +13,13 @@
 				<input type="checkbox" id="menu-toggle" />
 				<label for="menu-toggle" class="menu-icon">&#9776;</label>
 				<ul class="menu">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#education">Education</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#work">Work Experience</a></li>
-					<li><a href="#personal">Personal Development</a></li>
+					<li><a href="#home"><button class="glowing-btn"><span class="glowing-txt">Ho<span class="faulty-letter">m</span>e</span></button></a></li>
+					<li><a href="#about"><button class="glowing-btn"><span class="glowing-txt">A<span class="faulty-letter">bo</span>ut</span></button></a></li>
+					<li><a href="#skills"><button class="glowing-btn"><span class="glowing-txt">Sk<span class="faulty-letter">i</span>lls</span></button></a></li>
+					<li><a href="#education"><button class="glowing-btn"><span class="glowing-txt">Edu<span class="faulty-letter">ca</span>tion</span></button></a></li>
+					<li><a href="#projects"><button class="glowing-btn"><span class="glowing-txt">Pro<span class="faulty-letter">ject</span>s</span></button></a></li>
+					<li><a href="#work"><button class="glowing-btn"><span class="glowing-txt">Work<span class="faulty-letter"><span> <span> </span></span>Ex</span>perience</span></button></a></li>
+					<li><a href="#personal"><button class="glowing-btn"><span class="glowing-txt">Personal<span class="faulty-letter"><span><span> </span> </span>Developme</span>nt</span></button></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -28,26 +29,73 @@
 					<source src="project.mp4" type="video/mp4" />
 				</video>
 				<div class="home-content">
-					<h3>Hi, my name is</h3>
+					<h3 class="name">Hi, my name is</h3>
 							<div class="containerNam">
   <div class="sign">
       <d class="neon-blue" id="title">Sa<span id="fade">qib</span>
       <span class="neon-purple"> Ayoub 
    <Span>
 </div>
-					
-					<div class="container">
+					<div class="containers">
 						<p>
-							I am a <span class="typed-text"></span
-							><span class="cursor">&nbsp;</span>
+							I am a <span class="typed-text neon-purple-type"></span
+							><span class="cursors">&nbsp;</span>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="about" id="about"></div>
-		<hr />
-		<div class="skills" id="skills"></div>
+<div class="about" id="about">
+			<div class="h-about">
+    <h1 class="neonText">
+          About
+    </h1>
+ 			</div>
+			 <figure>
+      	<img src="prof.jpg" alt="profile-img" class="profile-img">
+        <figcaption>Passionate B.Tech CSE Student | Embracing Continuous Learning | Cultivating Proficiencies in Programming, Problem Solving, and Beyond 🌟</figcaption>
+    		</figure>
+	<div class="container">
+  		<div class="row">
+    		<div class="col-sm-12 col-lg-4 col-md-6">
+				<h5 class="h5">Name: Saqib Ayoub</h5>
+    		</div>
+    		<div class="col-sm-12 col-lg-4 col-md-6">
+    			 <h5 class="h5"> Age: 20</h5>
+    		</div>
+    		<div class="col-sm-12 col-lg-4 col-md-6">
+				<h5 class="h5">Height: 6 Feet</h5>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-6">
+				<h5 class="h5">Degree: Undergraduate</h5>
+    		</div>
+    		<div class="col-sm-12 col-lg-4 col-md-6">
+    			 <h5 class="h5">Native city: Srinagar,India</h5>
+    		</div>
+    		<div class="col-sm-12 col-lg-4 col-md-6">
+				<h5 class="h5">For Work: Available</h5>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-md-6">
+				 <h5 class="h5">Phone: +91 9149425603</h5>
+			</div>
+    		<div class="col-sm-12 col-lg-4 col-md-6">
+				<h5 class="h5">e-mail: <a href="mailto:saqibtelixy@gmail.com">saqibtelixy@gmail.com</a></h5>
+    		</div>
+    		<div class="col-sm-12 col-lg-4 col-md-6">
+      			<h5 class="h5">Languages Spoken: English,Hindi/Urdu,Kashmiri</h5>
+  			</div>
+		</div>
+	</div>
+	</div>
+		<div class="skills" id="skills">
+				<div class="h-about">
+    <h1 class="neonText">
+          Skills
+    </h1>
+ </div>
+ <span class="content"></span>
+
+		</div>
 		<hr />
 		<div class="education" id="education"></div>
 		<hr />
@@ -57,6 +105,13 @@
 		<hr />
 		<div class="personal" id="personal"></div>
 		<hr />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
 		<script src="index.js"></script>
 	</body>
 </html>
