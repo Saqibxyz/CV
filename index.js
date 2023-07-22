@@ -1,5 +1,5 @@
 const typedTextSpan = document.querySelector(".typed-text");
-const cursorSpan = document.querySelector(".cursor");
+const cursorSpan = document.querySelector(".cursors");
 const textArray = [
 	"Full Stack Developer",
 	"Problem Solver",
@@ -10,7 +10,7 @@ const textArray = [
 ];
 const typingDelay = 100;
 const erasingDelay = 100;
-const newTextDelay = 1000; // Delay between current and next text
+const newTextDelay = 1000;
 let textArrayIndex = 0;
 let charIndex = 0;
 function type() {
@@ -43,6 +43,31 @@ function erase() {
 	}
 }
 document.addEventListener("DOMContentLoaded", function () {
-	// On DOM Load initiate the effect
 	if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+const myTags = [
+	"JavaScript 88%",
+	"CSS 95%",
+	"HTML 94%",
+	"C 86%",
+	"C++ 82%",
+	"Java 62% ",
+	"Typing 45-WPM",
+	"Drupal",
+	"Wordpress",
+	"MS Word",
+	"MS Excel",
+	"MS Powerpoint",
+	"MySQL 72%",
+	"jQuery 80%",
+];
+var tagCloud = TagCloud(".content", myTags, {
+	radius: 250,
+	maxSpeed: "fast",
+	initSpeed: "fast",
+	direction: 135,
+	keep: true,
+});
+var colors = ["#34A853", "#FBBC05", "#4285F4", "#7FBC00", "FFBA01", "01A6F0"];
+var random_color = colors[Math.floor(Math.random() * colors.length)];
+document.querySelector(".content").style.color = random_color;
