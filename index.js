@@ -62,7 +62,7 @@ const myTags = [
 	"jQuery 80%",
 ];
 var tagCloud = TagCloud(".content", myTags, {
-	radius: 180,
+	radius: 250,
 	maxSpeed: "fast",
 	initSpeed: "fast",
 	direction: 135,
