@@ -46,14 +46,16 @@ document.addEventListener("DOMContentLoaded", function () {
 	if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
 const myTags = [
-	"JavaScript 88%",
+	"JavaScript 72%",
 	"CSS 95%",
 	"HTML 94%",
-	"C 86%",
-	"C++ 82%",
+	"C 94%",
+	"C++ 85%",
 	"Java 62% ",
+	"Python 60%",
 	"Typing 45-WPM",
 	"Drupal",
+	"PhP 78%",
 	"Wordpress",
 	"MS Word",
 	"MS Excel",
@@ -62,7 +64,7 @@ const myTags = [
 	"jQuery 80%",
 ];
 var tagCloud = TagCloud(".content", myTags, {
-	radius: 250,
+	radius: 190,
 	maxSpeed: "fast",
 	initSpeed: "fast",
 	direction: 135,
