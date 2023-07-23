@@ -346,6 +346,10 @@ video {
 	text-align: center;
 	overflow: hidden;
 }
+.content {
+	position: relative;
+	bottom: 6em;
+}
 .containers p span.typed-text {
 	font-weight: normal;
 	color: #5bf822;
@@ -533,12 +537,14 @@ figcaption {
 .about {
 	background-color: #040013;
 	padding-top: 2em;
-	
 }
 .container {
 	align-items: center;
 	text-align: left;
 	color: #fff;
+	box-shadow: rgba(227, 12, 255, 0.25) 0px 50px 100px -20px,
+		rgba(10, 0, 11, 0.3) 0px 30px 60px -30px,
+		rgba(0, 116, 158, 0.35) 0px -2px 6px 0px inset;
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 .row {
@@ -550,7 +556,6 @@ figcaption {
 }
 .h5 {
 	font-size: 1em;
-	
 }
 .h-about {
 	animation: flicker 3s infinite alternate;
@@ -600,22 +605,228 @@ figcaption {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 2em;
+	height: 150vh;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .tagcloud {
 	position: relative;
-    font-family: 'Poppins', sans-serif;  
-    font-size: 1.4em;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.4em;
 	font-weight: 700;
-    margin: auto;
-    width: 30%;
+	top: 4em;
+	margin: auto;
+	width: 30%;
 	color: #1492f8;
 	align-items: center;
-	overflow:hidden;
-  }
-  .tagcloud--item:hover {
-    color: #36454F;
-  }
+}
+.tagcloud--item:hover {
+	color: #36454f;
+}
+.education {
+	background-image: url("study.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
+.li {
+	/*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+.skills-bar {
+	/*style the text*/
+	width: 50%;
+	margin: 1em auto;
+	color: #fff;
+	background-color: #000;
+	width: 80%;
+}
+.skill-text {
+	font-size: 0.8em;
+}
+.li {
+	/*set margin of li*/
+	margin: 1em 0;
+}
+.bar-skill {
+	/*style the bar*/
+	background-color: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(52, 2, 250, 0.3);
+	border-radius: 3px;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+.bar-skill span {
+	/*style the span tag*/
+	height: 2px;
+	float: left;
+	background-color: rgb(17, 209, 239);
+}
+.html {
+	width: 94%;
+	animation: html 3s;
+}
+.css {
+	width: 95%;
+	animation: css 3s;
+}
+.javascript {
+	width: 72%;
+	animation: javascript 3s;
+}
+.c {
+	width: 94%;
+	animation: c 3s;
+}
+.cpp {
+	width: 85%;
+	animation: cpp 3s;
+}
+.php {
+	width: 78%;
+	animation: php 3s;
+}
+.python {
+	width: 60%;
+	animation: python 3s;
+}
+.java {
+	width: 62%;
+	animation: java 3s;
+}
+.jquery {
+	width: 80%;
+	animation: jquery 3s;
+}
+.drupal {
+	width: 80%;
+	animation: drupal 3s;
+}
+.wordpress {
+	width: 88%;
+	animation: wordpress 3s;
+}
+.word {
+	width: 93%;
+	animation: word 3s;
+}
+.excel {
+	width: 70%;
+	animation: excel 3s;
+}
+.powerpoint {
+	width: 95%;
+	animation: powerpoint 3s;
+}
+@keyframes html {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 94%;
+	}
+}
+@keyframes css {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 95%;
+	}
+}
+@keyframes javascript {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 72%;
+	}
+}
+@keyframes c {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 94%;
+	}
+}
+@keyframes cpp {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 85%;
+	}
+}
+@keyframes php {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 78%;
+	}
+}
+@keyframes python {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 60%;
+	}
+}
+@keyframes java {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 62%;
+	}
+}
+@keyframes jquery {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 80%;
+	}
+}
+@keyframes drupal {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 80%;
+	}
+}
+@keyframes wordpress {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 88%;
+	}
+}
+@keyframes word {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 93%;
+	}
+}
+@keyframes excel {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 70%;
+	}
+}
+@keyframes powerpoint {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 95%;
+	}
+}
