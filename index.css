@@ -214,13 +214,13 @@ html {
 	height: auto;
 	width: 100vw;
 	position: relative;
-	padding-bottom: 3em;
+	/* padding-bottom: 3em; */
 }
 .header {
 	position: sticky;
 	top: 0;
 	width: 100%;
-	box-shadow: 0 2px 20px hsla(179, 97%, 14%, 0.1);
+	box-shadow: 0 1px 20px hsla(179, 97%, 14%, 0.1);
 	background-color: #050f01;
 	z-index: 1;
 }
@@ -237,8 +237,8 @@ nav {
 }
 .menu a {
 	display: block;
-	padding: 2px 12px;
-	font-size: 12px;
+	padding: 1px 11px;
+	font-size: 11px;
 	font-weight: 500;
 	transition: 0.2s all ease-in-out;
 	color: #67ff45;
@@ -272,10 +272,10 @@ nav {
 		transform: scaleY(0);
 		transform-origin: top;
 		transition: transform 0.3s ease-in-out;
-		box-shadow: rgba(0, 0, 0, 0.15) 1.92px 1.92px 2.2px;
+		box-shadow: rgba(0, 0, 0, 0.15) 1.91px 1.91px 2.1px;
 	}
 	.menu a {
-		margin-left: 12px;
+		margin-left: 11px;
 	}
 	.menu li {
 		margin-bottom: 10px;
@@ -283,7 +283,7 @@ nav {
 	.menu-icon {
 		display: block;
 		color: #fff;
-		font-size: 22px;
+		font-size: 21px;
 		cursor: pointer;
 	}
 }
@@ -322,18 +322,18 @@ video {
 	text-align: center;
 }
 .home p {
-	font-size: clamp(22px, 4vw, 40px);
+	font-size: clamp(21px, 4vw, 40px);
 	margin-top: 10px;
 }
 .home-content button {
 	display: block;
-	font-size: clamp(12px, 1.5vw, 12px);
-	border: 2px solid #f1f1f1;
-	border-radius: 2px;
+	font-size: clamp(11px, 1.5vw, 11px);
+	border: 1px solid #f1f1f1;
+	border-radius: 1px;
 	background: transparent;
 	color: #fff;
 	margin: 50px auto 0;
-	padding: 12px 20px;
+	padding: 11px 20px;
 	cursor: pointer;
 }
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
@@ -362,9 +362,9 @@ video {
 }
 .containers p span.cursors {
 	display: inline-block;
-	background-color: #ccc;
-	margin-left: 0.1rem;
-	width: 2px;
+	background-color: #8ef680;
+	margin-left: 0.2rem;
+	width: 3px;
 	animation: blink 1s infinite;
 }
 .containers p span.cursors.typing {
@@ -407,7 +407,7 @@ video {
 #fade {
 	opacity: 0.8;
 	color: #ebffff;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), 0 0px 12px #fff, 0 0 10px #38eeff,
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0px 11px #fff, 0 0 10px #38eeff,
 		0 0 50px #edfdff;
 	-webkit-animation: fade 3s infinite alternate;
 	-moz-animation: fade 3s infinite alternate;
@@ -418,7 +418,7 @@ video {
 	margin: 0 auto;
 	text-align: center;
 	color: #ebffff;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), 0 0px 12px #fff, 0 0 10px #38eeff,
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0px 11px #fff, 0 0 10px #38eeff,
 		0 0 50px #38eeff;
 }
 .neon-purple {
@@ -426,7 +426,7 @@ video {
 	margin: 0 auto;
 	text-align: center;
 	color: #ccf;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5), 0 0 20px #fff, 0 0 10px #7d26cd,
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 0 0 20px #fff, 0 0 10px #7d26cd,
 		0 0 50px #7d26cd;
 }
 .neon-purple-type {
@@ -435,7 +435,7 @@ video {
 	text-align: center;
 	font-weight: 900;
 	color: rgb(46, 255, 35);
-	text-shadow: 2px 2px 2px rgba(176, 255, 101, 0.5), 0 0 20px #fff,
+	text-shadow: 1px 1px 1px rgba(176, 255, 101, 0.5), 0 0 20px #fff,
 		0 0 10px #7d26cd, 0 0 0px #ad5ef7;
 }
 @-moz-keyframes blink {
@@ -543,14 +543,16 @@ figcaption {
 .about {
 	background-color: #040013;
 	padding-top: 2em;
+	padding-bottom: 5rem;
 }
 .containerk {
+	width: 70%;
 	align-items: center;
 	text-align: left;
 	color: #fff;
 	box-shadow: rgba(227, 12, 255, 0.25) 0px 50px 100px -20px,
 		rgba(10, 0, 11, 0.3) 0px 30px 60px -30px,
-		rgba(0, 116, 158, 0.35) 0px -2px 2px 0px inset;
+		rgba(0, 116, 158, 0.35) 0px -1px 1px 0px inset;
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 .row-data {
@@ -560,7 +562,7 @@ figcaption {
 	animation: gradient 10s ease infinite;
 	padding: 1em;
 }
-@media (max-width: 762px) {
+@media (max-width: 761px) {
 	.row-data {
 		text-align: center;
 	}
@@ -582,7 +584,7 @@ figcaption {
 	53%,
 	57%,
 	100% {
-		text-shadow: 0 0 22px #810101, 0 0 22px #6a0363, 0 0 30px #ea00ff,
+		text-shadow: 0 0 21px #810101, 0 0 21px #6a0363, 0 0 30px #ea00ff,
 			0 0 50px rgb(230, 129, 253), 0 0 80px rgb(163, 41, 235), 0 0 90px #ed95de,
 			0 0 100px rgb(142, 6, 147), 0 0 150px rgb(99, 3, 102);
 	}
@@ -659,14 +661,14 @@ figcaption {
 	/*style the bar*/
 	background-color: #353b48;
 	display: block;
-	height: 2px;
-	border: 2px solid rgba(52, 2, 250, 0.3);
-	border-radius: 2px;
+	height: 1px;
+	border: 1px solid rgba(52, 2, 250, 0.3);
+	border-radius: 1px;
 	box-shadow: 0 0 10px #2187e7b3;
 }
 .bar-skill span {
 	/*style the span tag*/
-	height: 2px;
+	height: 1px;
 	float: left;
 	background-color: rgb(17, 209, 239);
 }
@@ -843,13 +845,18 @@ figcaption {
 	padding-left: 3em;
 }
 .study {
-	background-color: #06060679;
-	width: 70%;
+	width: 100%;
+	font-size: 1.2rem;
 }
 .learn {
-	background-color: #ccd27583;
-	color: #000;
+	background-color: #174e5e83;
+	color: #e960fe;
 	width: 7em;
+}
+.link-success-sch {
+	color: #fff;
+	font-weight: 700;
+	padding: 5px;
 }
 .projects {
 	background-image: url("project.jpg");
@@ -874,25 +881,30 @@ figcaption {
 }
 .internal:hover {
 	background: radial-gradient(circle, #b8f5ba, #035400);
+	padding: 3.1em;
 }
 .proj-button {
+	width: 90%;
+}
+.proj-button:hover {
 	width: 100%;
+	font-size: 1.3rem;
 }
 .colm {
 	border-radius: 10%;
 	margin-bottom: 2em;
 }
 .ag-format-container {
-	width: 100vh;
+	width: auto;
 	height: auto;
 }
 .ag-fireflies_box {
 	overflow: hidden;
 	position: relative;
-	background-image: url("https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&w=600");
+	background-image: url("https://images.pexels.com/photos/2831794/pexels-photo-2831794.jpeg?auto=compress&cs=tinysrgb&w=600");
 	background-size: cover;
 	height: auto;
-	padding-bottom: 14em;
+	padding-bottom: 4em;
 }
 .ag-fireflies_item {
 	position: relative;
@@ -904,8 +916,8 @@ figcaption {
 	animation-timing-function: linear;
 }
 .ag-fireflies_item:nth-child(1) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-1;
 	animation-name: an-move-frames-1;
 	-webkit-animation-duration: 30836ms;
@@ -938,8 +950,8 @@ figcaption {
 	animation-delay: 2643ms;
 }
 .ag-fireflies_item:nth-child(2) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-2;
 	animation-name: an-move-frames-2;
 	-webkit-animation-duration: 36977ms;
@@ -972,8 +984,8 @@ figcaption {
 	animation-delay: 640ms;
 }
 .ag-fireflies_item:nth-child(3) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-3;
 	animation-name: an-move-frames-3;
 	-webkit-animation-duration: 34091ms;
@@ -1006,8 +1018,8 @@ figcaption {
 	animation-delay: 1414ms;
 }
 .ag-fireflies_item:nth-child(4) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-4;
 	animation-name: an-move-frames-4;
 	-webkit-animation-duration: 36598ms;
@@ -1040,8 +1052,8 @@ figcaption {
 	animation-delay: 3343ms;
 }
 .ag-fireflies_item:nth-child(5) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-5;
 	animation-name: an-move-frames-5;
 	-webkit-animation-duration: 34524ms;
@@ -1074,8 +1086,8 @@ figcaption {
 	animation-delay: 1651ms;
 }
 .ag-fireflies_item:nth-child(6) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-6;
 	animation-name: an-move-frames-6;
 	-webkit-animation-duration: 30761ms;
@@ -1108,8 +1120,8 @@ figcaption {
 	animation-delay: 942ms;
 }
 .ag-fireflies_item:nth-child(7) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-7;
 	animation-name: an-move-frames-7;
 	-webkit-animation-duration: 35683ms;
@@ -1142,8 +1154,8 @@ figcaption {
 	animation-delay: 2080ms;
 }
 .ag-fireflies_item:nth-child(8) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-8;
 	animation-name: an-move-frames-8;
 	-webkit-animation-duration: 32920ms;
@@ -1176,8 +1188,8 @@ figcaption {
 	animation-delay: 1390ms;
 }
 .ag-fireflies_item:nth-child(9) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-9;
 	animation-name: an-move-frames-9;
 	-webkit-animation-duration: 35658ms;
@@ -1210,8 +1222,8 @@ figcaption {
 	animation-delay: 2381ms;
 }
 .ag-fireflies_item:nth-child(10) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-10;
 	animation-name: an-move-frames-10;
 	-webkit-animation-duration: 28922ms;
@@ -1244,8 +1256,8 @@ figcaption {
 	animation-delay: 665ms;
 }
 .ag-fireflies_item:nth-child(11) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-11;
 	animation-name: an-move-frames-11;
 	-webkit-animation-duration: 34311ms;
@@ -1278,8 +1290,8 @@ figcaption {
 	animation-delay: 391ms;
 }
 .ag-fireflies_item:nth-child(12) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-12;
 	animation-name: an-move-frames-12;
 	-webkit-animation-duration: 29298ms;
@@ -1312,8 +1324,8 @@ figcaption {
 	animation-delay: 1354ms;
 }
 .ag-fireflies_item:nth-child(13) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-13;
 	animation-name: an-move-frames-13;
 	-webkit-animation-duration: 35981ms;
@@ -1346,8 +1358,8 @@ figcaption {
 	animation-delay: 2206ms;
 }
 .ag-fireflies_item:nth-child(14) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-14;
 	animation-name: an-move-frames-14;
 	-webkit-animation-duration: 29364ms;
@@ -1380,8 +1392,8 @@ figcaption {
 	animation-delay: 2037ms;
 }
 .ag-fireflies_item:nth-child(15) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-15;
 	animation-name: an-move-frames-15;
 	-webkit-animation-duration: 32518ms;
@@ -1414,8 +1426,8 @@ figcaption {
 	animation-delay: 2268ms;
 }
 .ag-fireflies_item:nth-child(16) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-16;
 	animation-name: an-move-frames-16;
 	-webkit-animation-duration: 30881ms;
@@ -1448,8 +1460,8 @@ figcaption {
 	animation-delay: 2386ms;
 }
 .ag-fireflies_item:nth-child(17) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-17;
 	animation-name: an-move-frames-17;
 	-webkit-animation-duration: 35171ms;
@@ -1482,8 +1494,8 @@ figcaption {
 	animation-delay: 1050ms;
 }
 .ag-fireflies_item:nth-child(18) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-18;
 	animation-name: an-move-frames-18;
 	-webkit-animation-duration: 31120ms;
@@ -1516,8 +1528,8 @@ figcaption {
 	animation-delay: 532ms;
 }
 .ag-fireflies_item:nth-child(19) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-19;
 	animation-name: an-move-frames-19;
 	-webkit-animation-duration: 36883ms;
@@ -1550,8 +1562,8 @@ figcaption {
 	animation-delay: 712ms;
 }
 .ag-fireflies_item:nth-child(20) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-20;
 	animation-name: an-move-frames-20;
 	-webkit-animation-duration: 28164ms;
@@ -1584,8 +1596,8 @@ figcaption {
 	animation-delay: 765ms;
 }
 .ag-fireflies_item:nth-child(21) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-21;
 	animation-name: an-move-frames-21;
 	-webkit-animation-duration: 33848ms;
@@ -1618,8 +1630,8 @@ figcaption {
 	animation-delay: 210ms;
 }
 .ag-fireflies_item:nth-child(22) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-22;
 	animation-name: an-move-frames-22;
 	-webkit-animation-duration: 31170ms;
@@ -1652,8 +1664,8 @@ figcaption {
 	animation-delay: 1880ms;
 }
 .ag-fireflies_item:nth-child(23) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-23;
 	animation-name: an-move-frames-23;
 	-webkit-animation-duration: 36460ms;
@@ -1686,8 +1698,8 @@ figcaption {
 	animation-delay: 3461ms;
 }
 .ag-fireflies_item:nth-child(24) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-24;
 	animation-name: an-move-frames-24;
 	-webkit-animation-duration: 36465ms;
@@ -1720,8 +1732,8 @@ figcaption {
 	animation-delay: 724ms;
 }
 .ag-fireflies_item:nth-child(25) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-25;
 	animation-name: an-move-frames-25;
 	-webkit-animation-duration: 32518ms;
@@ -1754,8 +1766,8 @@ figcaption {
 	animation-delay: 3298ms;
 }
 .ag-fireflies_item:nth-child(26) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-26;
 	animation-name: an-move-frames-26;
 	-webkit-animation-duration: 31825ms;
@@ -1788,8 +1800,8 @@ figcaption {
 	animation-delay: 817ms;
 }
 .ag-fireflies_item:nth-child(27) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-27;
 	animation-name: an-move-frames-27;
 	-webkit-animation-duration: 29850ms;
@@ -1822,8 +1834,8 @@ figcaption {
 	animation-delay: 1862ms;
 }
 .ag-fireflies_item:nth-child(28) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-28;
 	animation-name: an-move-frames-28;
 	-webkit-animation-duration: 31107ms;
@@ -1856,8 +1868,8 @@ figcaption {
 	animation-delay: 154ms;
 }
 .ag-fireflies_item:nth-child(29) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-29;
 	animation-name: an-move-frames-29;
 	-webkit-animation-duration: 35404ms;
@@ -1890,8 +1902,8 @@ figcaption {
 	animation-delay: 3868ms;
 }
 .ag-fireflies_item:nth-child(30) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-30;
 	animation-name: an-move-frames-30;
 	-webkit-animation-duration: 36937ms;
@@ -1924,8 +1936,8 @@ figcaption {
 	animation-delay: 2174ms;
 }
 .ag-fireflies_item:nth-child(31) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-31;
 	animation-name: an-move-frames-31;
 	-webkit-animation-duration: 34865ms;
@@ -1958,8 +1970,8 @@ figcaption {
 	animation-delay: 2344ms;
 }
 .ag-fireflies_item:nth-child(32) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-32;
 	animation-name: an-move-frames-32;
 	-webkit-animation-duration: 32361ms;
@@ -1992,8 +2004,8 @@ figcaption {
 	animation-delay: 3741ms;
 }
 .ag-fireflies_item:nth-child(33) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-33;
 	animation-name: an-move-frames-33;
 	-webkit-animation-duration: 30724ms;
@@ -2026,8 +2038,8 @@ figcaption {
 	animation-delay: 3889ms;
 }
 .ag-fireflies_item:nth-child(34) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-34;
 	animation-name: an-move-frames-34;
 	-webkit-animation-duration: 29447ms;
@@ -2060,8 +2072,8 @@ figcaption {
 	animation-delay: 2647ms;
 }
 .ag-fireflies_item:nth-child(35) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-35;
 	animation-name: an-move-frames-35;
 	-webkit-animation-duration: 28871ms;
@@ -2094,8 +2106,8 @@ figcaption {
 	animation-delay: 1069ms;
 }
 .ag-fireflies_item:nth-child(36) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-36;
 	animation-name: an-move-frames-36;
 	-webkit-animation-duration: 36591ms;
@@ -2128,8 +2140,8 @@ figcaption {
 	animation-delay: 2251ms;
 }
 .ag-fireflies_item:nth-child(37) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-37;
 	animation-name: an-move-frames-37;
 	-webkit-animation-duration: 35870ms;
@@ -2162,8 +2174,8 @@ figcaption {
 	animation-delay: 3925ms;
 }
 .ag-fireflies_item:nth-child(38) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-38;
 	animation-name: an-move-frames-38;
 	-webkit-animation-duration: 34675ms;
@@ -2196,8 +2208,8 @@ figcaption {
 	animation-delay: 2900ms;
 }
 .ag-fireflies_item:nth-child(39) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-39;
 	animation-name: an-move-frames-39;
 	-webkit-animation-duration: 36284ms;
@@ -2230,8 +2242,8 @@ figcaption {
 	animation-delay: 139ms;
 }
 .ag-fireflies_item:nth-child(40) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-40;
 	animation-name: an-move-frames-40;
 	-webkit-animation-duration: 35245ms;
@@ -2264,8 +2276,8 @@ figcaption {
 	animation-delay: 2995ms;
 }
 .ag-fireflies_item:nth-child(41) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-41;
 	animation-name: an-move-frames-41;
 	-webkit-animation-duration: 33476ms;
@@ -2298,8 +2310,8 @@ figcaption {
 	animation-delay: 2553ms;
 }
 .ag-fireflies_item:nth-child(42) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-42;
 	animation-name: an-move-frames-42;
 	-webkit-animation-duration: 36551ms;
@@ -2332,8 +2344,8 @@ figcaption {
 	animation-delay: 1514ms;
 }
 .ag-fireflies_item:nth-child(43) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-43;
 	animation-name: an-move-frames-43;
 	-webkit-animation-duration: 30314ms;
@@ -2366,8 +2378,8 @@ figcaption {
 	animation-delay: 2882ms;
 }
 .ag-fireflies_item:nth-child(44) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-44;
 	animation-name: an-move-frames-44;
 	-webkit-animation-duration: 32648ms;
@@ -2400,8 +2412,8 @@ figcaption {
 	animation-delay: 1934ms;
 }
 .ag-fireflies_item:nth-child(45) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-45;
 	animation-name: an-move-frames-45;
 	-webkit-animation-duration: 36314ms;
@@ -2434,8 +2446,8 @@ figcaption {
 	animation-delay: 3071ms;
 }
 .ag-fireflies_item:nth-child(46) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-46;
 	animation-name: an-move-frames-46;
 	-webkit-animation-duration: 33142ms;
@@ -2468,8 +2480,8 @@ figcaption {
 	animation-delay: 2586ms;
 }
 .ag-fireflies_item:nth-child(47) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-47;
 	animation-name: an-move-frames-47;
 	-webkit-animation-duration: 33829ms;
@@ -2502,8 +2514,8 @@ figcaption {
 	animation-delay: 118ms;
 }
 .ag-fireflies_item:nth-child(48) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-48;
 	animation-name: an-move-frames-48;
 	-webkit-animation-duration: 32437ms;
@@ -2536,8 +2548,8 @@ figcaption {
 	animation-delay: 597ms;
 }
 .ag-fireflies_item:nth-child(49) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-49;
 	animation-name: an-move-frames-49;
 	-webkit-animation-duration: 28741ms;
@@ -2570,8 +2582,8 @@ figcaption {
 	animation-delay: 1401ms;
 }
 .ag-fireflies_item:nth-child(50) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-50;
 	animation-name: an-move-frames-50;
 	-webkit-animation-duration: 28592ms;
@@ -2604,8 +2616,8 @@ figcaption {
 	animation-delay: 3918ms;
 }
 .ag-fireflies_item:nth-child(51) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-51;
 	animation-name: an-move-frames-51;
 	-webkit-animation-duration: 33054ms;
@@ -2638,8 +2650,8 @@ figcaption {
 	animation-delay: 2898ms;
 }
 .ag-fireflies_item:nth-child(52) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-52;
 	animation-name: an-move-frames-52;
 	-webkit-animation-duration: 36202ms;
@@ -2672,8 +2684,8 @@ figcaption {
 	animation-delay: 1198ms;
 }
 .ag-fireflies_item:nth-child(53) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-53;
 	animation-name: an-move-frames-53;
 	-webkit-animation-duration: 29425ms;
@@ -2706,8 +2718,8 @@ figcaption {
 	animation-delay: 327ms;
 }
 .ag-fireflies_item:nth-child(54) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-54;
 	animation-name: an-move-frames-54;
 	-webkit-animation-duration: 30917ms;
@@ -2740,8 +2752,8 @@ figcaption {
 	animation-delay: 3924ms;
 }
 .ag-fireflies_item:nth-child(55) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-55;
 	animation-name: an-move-frames-55;
 	-webkit-animation-duration: 29613ms;
@@ -2774,8 +2786,8 @@ figcaption {
 	animation-delay: 3373ms;
 }
 .ag-fireflies_item:nth-child(56) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-56;
 	animation-name: an-move-frames-56;
 	-webkit-animation-duration: 33373ms;
@@ -2808,8 +2820,8 @@ figcaption {
 	animation-delay: 2166ms;
 }
 .ag-fireflies_item:nth-child(57) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-57;
 	animation-name: an-move-frames-57;
 	-webkit-animation-duration: 31530ms;
@@ -2842,8 +2854,8 @@ figcaption {
 	animation-delay: 2464ms;
 }
 .ag-fireflies_item:nth-child(58) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-58;
 	animation-name: an-move-frames-58;
 	-webkit-animation-duration: 31936ms;
@@ -2876,8 +2888,8 @@ figcaption {
 	animation-delay: 2375ms;
 }
 .ag-fireflies_item:nth-child(59) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-59;
 	animation-name: an-move-frames-59;
 	-webkit-animation-duration: 33079ms;
@@ -2910,8 +2922,8 @@ figcaption {
 	animation-delay: 3407ms;
 }
 .ag-fireflies_item:nth-child(60) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-60;
 	animation-name: an-move-frames-60;
 	-webkit-animation-duration: 32875ms;
@@ -2944,8 +2956,8 @@ figcaption {
 	animation-delay: 861ms;
 }
 .ag-fireflies_item:nth-child(61) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-61;
 	animation-name: an-move-frames-61;
 	-webkit-animation-duration: 28130ms;
@@ -2978,8 +2990,8 @@ figcaption {
 	animation-delay: 2447ms;
 }
 .ag-fireflies_item:nth-child(62) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-62;
 	animation-name: an-move-frames-62;
 	-webkit-animation-duration: 28369ms;
@@ -3012,8 +3024,8 @@ figcaption {
 	animation-delay: 3060ms;
 }
 .ag-fireflies_item:nth-child(63) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-63;
 	animation-name: an-move-frames-63;
 	-webkit-animation-duration: 34776ms;
@@ -3046,8 +3058,8 @@ figcaption {
 	animation-delay: 1441ms;
 }
 .ag-fireflies_item:nth-child(64) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-64;
 	animation-name: an-move-frames-64;
 	-webkit-animation-duration: 31871ms;
@@ -3080,8 +3092,8 @@ figcaption {
 	animation-delay: 3129ms;
 }
 .ag-fireflies_item:nth-child(65) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-65;
 	animation-name: an-move-frames-65;
 	-webkit-animation-duration: 28195ms;
@@ -3114,8 +3126,8 @@ figcaption {
 	animation-delay: 2721ms;
 }
 .ag-fireflies_item:nth-child(66) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-66;
 	animation-name: an-move-frames-66;
 	-webkit-animation-duration: 35970ms;
@@ -3148,8 +3160,8 @@ figcaption {
 	animation-delay: 762ms;
 }
 .ag-fireflies_item:nth-child(67) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-67;
 	animation-name: an-move-frames-67;
 	-webkit-animation-duration: 28165ms;
@@ -3182,8 +3194,8 @@ figcaption {
 	animation-delay: 2804ms;
 }
 .ag-fireflies_item:nth-child(68) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-68;
 	animation-name: an-move-frames-68;
 	-webkit-animation-duration: 31121ms;
@@ -3216,8 +3228,8 @@ figcaption {
 	animation-delay: 593ms;
 }
 .ag-fireflies_item:nth-child(69) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-69;
 	animation-name: an-move-frames-69;
 	-webkit-animation-duration: 30143ms;
@@ -3250,8 +3262,8 @@ figcaption {
 	animation-delay: 2191ms;
 }
 .ag-fireflies_item:nth-child(70) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-70;
 	animation-name: an-move-frames-70;
 	-webkit-animation-duration: 31289ms;
@@ -3284,8 +3296,8 @@ figcaption {
 	animation-delay: 3666ms;
 }
 .ag-fireflies_item:nth-child(71) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-71;
 	animation-name: an-move-frames-71;
 	-webkit-animation-duration: 31028ms;
@@ -3318,8 +3330,8 @@ figcaption {
 	animation-delay: 493ms;
 }
 .ag-fireflies_item:nth-child(72) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-72;
 	animation-name: an-move-frames-72;
 	-webkit-animation-duration: 35313ms;
@@ -3352,8 +3364,8 @@ figcaption {
 	animation-delay: 1829ms;
 }
 .ag-fireflies_item:nth-child(73) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-73;
 	animation-name: an-move-frames-73;
 	-webkit-animation-duration: 35959ms;
@@ -3386,8 +3398,8 @@ figcaption {
 	animation-delay: 2013ms;
 }
 .ag-fireflies_item:nth-child(74) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-74;
 	animation-name: an-move-frames-74;
 	-webkit-animation-duration: 33687ms;
@@ -3420,8 +3432,8 @@ figcaption {
 	animation-delay: 2122ms;
 }
 .ag-fireflies_item:nth-child(75) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-75;
 	animation-name: an-move-frames-75;
 	-webkit-animation-duration: 35746ms;
@@ -3454,8 +3466,8 @@ figcaption {
 	animation-delay: 3515ms;
 }
 .ag-fireflies_item:nth-child(76) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-76;
 	animation-name: an-move-frames-76;
 	-webkit-animation-duration: 33832ms;
@@ -3488,8 +3500,8 @@ figcaption {
 	animation-delay: 255ms;
 }
 .ag-fireflies_item:nth-child(77) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-77;
 	animation-name: an-move-frames-77;
 	-webkit-animation-duration: 32250ms;
@@ -3522,8 +3534,8 @@ figcaption {
 	animation-delay: 1600ms;
 }
 .ag-fireflies_item:nth-child(78) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-78;
 	animation-name: an-move-frames-78;
 	-webkit-animation-duration: 32038ms;
@@ -3556,8 +3568,8 @@ figcaption {
 	animation-delay: 3557ms;
 }
 .ag-fireflies_item:nth-child(79) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-79;
 	animation-name: an-move-frames-79;
 	-webkit-animation-duration: 35962ms;
@@ -3590,8 +3602,8 @@ figcaption {
 	animation-delay: 1469ms;
 }
 .ag-fireflies_item:nth-child(80) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-80;
 	animation-name: an-move-frames-80;
 	-webkit-animation-duration: 34908ms;
@@ -3624,8 +3636,8 @@ figcaption {
 	animation-delay: 3000ms;
 }
 .ag-fireflies_item:nth-child(81) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-81;
 	animation-name: an-move-frames-81;
 	-webkit-animation-duration: 31398ms;
@@ -3658,8 +3670,8 @@ figcaption {
 	animation-delay: 587ms;
 }
 .ag-fireflies_item:nth-child(82) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-82;
 	animation-name: an-move-frames-82;
 	-webkit-animation-duration: 29055ms;
@@ -3692,8 +3704,8 @@ figcaption {
 	animation-delay: 1706ms;
 }
 .ag-fireflies_item:nth-child(83) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-83;
 	animation-name: an-move-frames-83;
 	-webkit-animation-duration: 30056ms;
@@ -3726,8 +3738,8 @@ figcaption {
 	animation-delay: 1589ms;
 }
 .ag-fireflies_item:nth-child(84) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-84;
 	animation-name: an-move-frames-84;
 	-webkit-animation-duration: 32572ms;
@@ -3760,8 +3772,8 @@ figcaption {
 	animation-delay: 3589ms;
 }
 .ag-fireflies_item:nth-child(85) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-85;
 	animation-name: an-move-frames-85;
 	-webkit-animation-duration: 31722ms;
@@ -3794,8 +3806,8 @@ figcaption {
 	animation-delay: 3781ms;
 }
 .ag-fireflies_item:nth-child(86) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-86;
 	animation-name: an-move-frames-86;
 	-webkit-animation-duration: 33659ms;
@@ -3828,8 +3840,8 @@ figcaption {
 	animation-delay: 3455ms;
 }
 .ag-fireflies_item:nth-child(87) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-87;
 	animation-name: an-move-frames-87;
 	-webkit-animation-duration: 28065ms;
@@ -3862,8 +3874,8 @@ figcaption {
 	animation-delay: 738ms;
 }
 .ag-fireflies_item:nth-child(88) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-88;
 	animation-name: an-move-frames-88;
 	-webkit-animation-duration: 36799ms;
@@ -3896,8 +3908,8 @@ figcaption {
 	animation-delay: 3527ms;
 }
 .ag-fireflies_item:nth-child(89) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-89;
 	animation-name: an-move-frames-89;
 	-webkit-animation-duration: 29921ms;
@@ -3930,8 +3942,8 @@ figcaption {
 	animation-delay: 3623ms;
 }
 .ag-fireflies_item:nth-child(90) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-90;
 	animation-name: an-move-frames-90;
 	-webkit-animation-duration: 35197ms;
@@ -3964,8 +3976,8 @@ figcaption {
 	animation-delay: 2888ms;
 }
 .ag-fireflies_item:nth-child(91) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-91;
 	animation-name: an-move-frames-91;
 	-webkit-animation-duration: 28719ms;
@@ -3998,8 +4010,8 @@ figcaption {
 	animation-delay: 207ms;
 }
 .ag-fireflies_item:nth-child(92) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-92;
 	animation-name: an-move-frames-92;
 	-webkit-animation-duration: 30745ms;
@@ -4032,8 +4044,8 @@ figcaption {
 	animation-delay: 1347ms;
 }
 .ag-fireflies_item:nth-child(93) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-93;
 	animation-name: an-move-frames-93;
 	-webkit-animation-duration: 29903ms;
@@ -4066,8 +4078,8 @@ figcaption {
 	animation-delay: 3297ms;
 }
 .ag-fireflies_item:nth-child(94) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-94;
 	animation-name: an-move-frames-94;
 	-webkit-animation-duration: 34529ms;
@@ -4100,8 +4112,8 @@ figcaption {
 	animation-delay: 3024ms;
 }
 .ag-fireflies_item:nth-child(95) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-95;
 	animation-name: an-move-frames-95;
 	-webkit-animation-duration: 29849ms;
@@ -4134,8 +4146,8 @@ figcaption {
 	animation-delay: 1335ms;
 }
 .ag-fireflies_item:nth-child(96) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-96;
 	animation-name: an-move-frames-96;
 	-webkit-animation-duration: 30710ms;
@@ -4168,8 +4180,8 @@ figcaption {
 	animation-delay: 2072ms;
 }
 .ag-fireflies_item:nth-child(97) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-97;
 	animation-name: an-move-frames-97;
 	-webkit-animation-duration: 35749ms;
@@ -4202,8 +4214,8 @@ figcaption {
 	animation-delay: 1906ms;
 }
 .ag-fireflies_item:nth-child(98) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-98;
 	animation-name: an-move-frames-98;
 	-webkit-animation-duration: 34467ms;
@@ -4236,8 +4248,8 @@ figcaption {
 	animation-delay: 476ms;
 }
 .ag-fireflies_item:nth-child(99) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-99;
 	animation-name: an-move-frames-99;
 	-webkit-animation-duration: 29632ms;
@@ -4270,8 +4282,8 @@ figcaption {
 	animation-delay: 2175ms;
 }
 .ag-fireflies_item:nth-child(100) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-100;
 	animation-name: an-move-frames-100;
 	-webkit-animation-duration: 29998ms;
@@ -4304,8 +4316,8 @@ figcaption {
 	animation-delay: 3706ms;
 }
 .ag-fireflies_item:nth-child(101) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-101;
 	animation-name: an-move-frames-101;
 	-webkit-animation-duration: 30654ms;
@@ -4338,8 +4350,8 @@ figcaption {
 	animation-delay: 286ms;
 }
 .ag-fireflies_item:nth-child(102) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-102;
 	animation-name: an-move-frames-102;
 	-webkit-animation-duration: 34181ms;
@@ -4372,8 +4384,8 @@ figcaption {
 	animation-delay: 2842ms;
 }
 .ag-fireflies_item:nth-child(103) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-103;
 	animation-name: an-move-frames-103;
 	-webkit-animation-duration: 34372ms;
@@ -4406,8 +4418,8 @@ figcaption {
 	animation-delay: 1679ms;
 }
 .ag-fireflies_item:nth-child(104) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-104;
 	animation-name: an-move-frames-104;
 	-webkit-animation-duration: 28792ms;
@@ -4440,8 +4452,8 @@ figcaption {
 	animation-delay: 442ms;
 }
 .ag-fireflies_item:nth-child(105) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-105;
 	animation-name: an-move-frames-105;
 	-webkit-animation-duration: 33051ms;
@@ -4474,8 +4486,8 @@ figcaption {
 	animation-delay: 241ms;
 }
 .ag-fireflies_item:nth-child(106) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-106;
 	animation-name: an-move-frames-106;
 	-webkit-animation-duration: 29820ms;
@@ -4508,8 +4520,8 @@ figcaption {
 	animation-delay: 1364ms;
 }
 .ag-fireflies_item:nth-child(107) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-107;
 	animation-name: an-move-frames-107;
 	-webkit-animation-duration: 32215ms;
@@ -4542,8 +4554,8 @@ figcaption {
 	animation-delay: 321ms;
 }
 .ag-fireflies_item:nth-child(108) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-108;
 	animation-name: an-move-frames-108;
 	-webkit-animation-duration: 34140ms;
@@ -4576,8 +4588,8 @@ figcaption {
 	animation-delay: 1499ms;
 }
 .ag-fireflies_item:nth-child(109) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-109;
 	animation-name: an-move-frames-109;
 	-webkit-animation-duration: 34973ms;
@@ -4610,8 +4622,8 @@ figcaption {
 	animation-delay: 2754ms;
 }
 .ag-fireflies_item:nth-child(110) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-110;
 	animation-name: an-move-frames-110;
 	-webkit-animation-duration: 34453ms;
@@ -4644,8 +4656,8 @@ figcaption {
 	animation-delay: 2826ms;
 }
 .ag-fireflies_item:nth-child(111) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-111;
 	animation-name: an-move-frames-111;
 	-webkit-animation-duration: 34343ms;
@@ -4678,8 +4690,8 @@ figcaption {
 	animation-delay: 2391ms;
 }
 .ag-fireflies_item:nth-child(112) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-112;
 	animation-name: an-move-frames-112;
 	-webkit-animation-duration: 34434ms;
@@ -4712,8 +4724,8 @@ figcaption {
 	animation-delay: 449ms;
 }
 .ag-fireflies_item:nth-child(113) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-113;
 	animation-name: an-move-frames-113;
 	-webkit-animation-duration: 28657ms;
@@ -4746,8 +4758,8 @@ figcaption {
 	animation-delay: 1296ms;
 }
 .ag-fireflies_item:nth-child(114) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-114;
 	animation-name: an-move-frames-114;
 	-webkit-animation-duration: 32605ms;
@@ -4780,8 +4792,8 @@ figcaption {
 	animation-delay: 1884ms;
 }
 .ag-fireflies_item:nth-child(115) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-115;
 	animation-name: an-move-frames-115;
 	-webkit-animation-duration: 34221ms;
@@ -4814,8 +4826,8 @@ figcaption {
 	animation-delay: 119ms;
 }
 .ag-fireflies_item:nth-child(116) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-116;
 	animation-name: an-move-frames-116;
 	-webkit-animation-duration: 30810ms;
@@ -4848,8 +4860,8 @@ figcaption {
 	animation-delay: 1018ms;
 }
 .ag-fireflies_item:nth-child(117) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-117;
 	animation-name: an-move-frames-117;
 	-webkit-animation-duration: 32505ms;
@@ -4882,8 +4894,8 @@ figcaption {
 	animation-delay: 1073ms;
 }
 .ag-fireflies_item:nth-child(118) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-118;
 	animation-name: an-move-frames-118;
 	-webkit-animation-duration: 31564ms;
@@ -4916,8 +4928,8 @@ figcaption {
 	animation-delay: 2309ms;
 }
 .ag-fireflies_item:nth-child(119) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-119;
 	animation-name: an-move-frames-119;
 	-webkit-animation-duration: 29590ms;
@@ -4950,8 +4962,8 @@ figcaption {
 	animation-delay: 1618ms;
 }
 .ag-fireflies_item:nth-child(120) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-120;
 	animation-name: an-move-frames-120;
 	-webkit-animation-duration: 28379ms;
@@ -4984,8 +4996,8 @@ figcaption {
 	animation-delay: 389ms;
 }
 .ag-fireflies_item:nth-child(121) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-121;
 	animation-name: an-move-frames-121;
 	-webkit-animation-duration: 29625ms;
@@ -5018,8 +5030,8 @@ figcaption {
 	animation-delay: 1046ms;
 }
 .ag-fireflies_item:nth-child(122) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-122;
 	animation-name: an-move-frames-122;
 	-webkit-animation-duration: 28219ms;
@@ -5052,8 +5064,8 @@ figcaption {
 	animation-delay: 2275ms;
 }
 .ag-fireflies_item:nth-child(123) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-123;
 	animation-name: an-move-frames-123;
 	-webkit-animation-duration: 33762ms;
@@ -5086,8 +5098,8 @@ figcaption {
 	animation-delay: 801ms;
 }
 .ag-fireflies_item:nth-child(124) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-124;
 	animation-name: an-move-frames-124;
 	-webkit-animation-duration: 34716ms;
@@ -5120,8 +5132,8 @@ figcaption {
 	animation-delay: 30ms;
 }
 .ag-fireflies_item:nth-child(125) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-125;
 	animation-name: an-move-frames-125;
 	-webkit-animation-duration: 35093ms;
@@ -5154,8 +5166,8 @@ figcaption {
 	animation-delay: 116ms;
 }
 .ag-fireflies_item:nth-child(126) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-126;
 	animation-name: an-move-frames-126;
 	-webkit-animation-duration: 31163ms;
@@ -5188,8 +5200,8 @@ figcaption {
 	animation-delay: 3455ms;
 }
 .ag-fireflies_item:nth-child(127) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-127;
 	animation-name: an-move-frames-127;
 	-webkit-animation-duration: 33152ms;
@@ -5222,8 +5234,8 @@ figcaption {
 	animation-delay: 2995ms;
 }
 .ag-fireflies_item:nth-child(128) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-128;
 	animation-name: an-move-frames-128;
 	-webkit-animation-duration: 29781ms;
@@ -5256,8 +5268,8 @@ figcaption {
 	animation-delay: 1020ms;
 }
 .ag-fireflies_item:nth-child(129) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-129;
 	animation-name: an-move-frames-129;
 	-webkit-animation-duration: 32994ms;
@@ -5290,8 +5302,8 @@ figcaption {
 	animation-delay: 2312ms;
 }
 .ag-fireflies_item:nth-child(130) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-130;
 	animation-name: an-move-frames-130;
 	-webkit-animation-duration: 35964ms;
@@ -5324,8 +5336,8 @@ figcaption {
 	animation-delay: 3905ms;
 }
 .ag-fireflies_item:nth-child(131) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-131;
 	animation-name: an-move-frames-131;
 	-webkit-animation-duration: 35559ms;
@@ -5358,8 +5370,8 @@ figcaption {
 	animation-delay: 818ms;
 }
 .ag-fireflies_item:nth-child(132) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-132;
 	animation-name: an-move-frames-132;
 	-webkit-animation-duration: 35700ms;
@@ -5392,8 +5404,8 @@ figcaption {
 	animation-delay: 2517ms;
 }
 .ag-fireflies_item:nth-child(133) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-133;
 	animation-name: an-move-frames-133;
 	-webkit-animation-duration: 28661ms;
@@ -5426,8 +5438,8 @@ figcaption {
 	animation-delay: 215ms;
 }
 .ag-fireflies_item:nth-child(134) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-134;
 	animation-name: an-move-frames-134;
 	-webkit-animation-duration: 34905ms;
@@ -5460,8 +5472,8 @@ figcaption {
 	animation-delay: 3968ms;
 }
 .ag-fireflies_item:nth-child(135) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-135;
 	animation-name: an-move-frames-135;
 	-webkit-animation-duration: 29126ms;
@@ -5494,8 +5506,8 @@ figcaption {
 	animation-delay: 2500ms;
 }
 .ag-fireflies_item:nth-child(136) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-136;
 	animation-name: an-move-frames-136;
 	-webkit-animation-duration: 28666ms;
@@ -5528,8 +5540,8 @@ figcaption {
 	animation-delay: 726ms;
 }
 .ag-fireflies_item:nth-child(137) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-137;
 	animation-name: an-move-frames-137;
 	-webkit-animation-duration: 30304ms;
@@ -5562,8 +5574,8 @@ figcaption {
 	animation-delay: 2831ms;
 }
 .ag-fireflies_item:nth-child(138) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-138;
 	animation-name: an-move-frames-138;
 	-webkit-animation-duration: 28065ms;
@@ -5596,8 +5608,8 @@ figcaption {
 	animation-delay: 2482ms;
 }
 .ag-fireflies_item:nth-child(139) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-139;
 	animation-name: an-move-frames-139;
 	-webkit-animation-duration: 29743ms;
@@ -5630,8 +5642,8 @@ figcaption {
 	animation-delay: 528ms;
 }
 .ag-fireflies_item:nth-child(140) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-140;
 	animation-name: an-move-frames-140;
 	-webkit-animation-duration: 31117ms;
@@ -5664,8 +5676,8 @@ figcaption {
 	animation-delay: 1816ms;
 }
 .ag-fireflies_item:nth-child(141) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-141;
 	animation-name: an-move-frames-141;
 	-webkit-animation-duration: 36595ms;
@@ -5698,8 +5710,8 @@ figcaption {
 	animation-delay: 3334ms;
 }
 .ag-fireflies_item:nth-child(142) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-142;
 	animation-name: an-move-frames-142;
 	-webkit-animation-duration: 35147ms;
@@ -5732,8 +5744,8 @@ figcaption {
 	animation-delay: 1761ms;
 }
 .ag-fireflies_item:nth-child(143) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-143;
 	animation-name: an-move-frames-143;
 	-webkit-animation-duration: 35884ms;
@@ -5766,8 +5778,8 @@ figcaption {
 	animation-delay: 297ms;
 }
 .ag-fireflies_item:nth-child(144) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-144;
 	animation-name: an-move-frames-144;
 	-webkit-animation-duration: 30518ms;
@@ -5800,8 +5812,8 @@ figcaption {
 	animation-delay: 2010ms;
 }
 .ag-fireflies_item:nth-child(145) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-145;
 	animation-name: an-move-frames-145;
 	-webkit-animation-duration: 30093ms;
@@ -5834,8 +5846,8 @@ figcaption {
 	animation-delay: 2444ms;
 }
 .ag-fireflies_item:nth-child(146) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-146;
 	animation-name: an-move-frames-146;
 	-webkit-animation-duration: 33975ms;
@@ -5868,8 +5880,8 @@ figcaption {
 	animation-delay: 2024ms;
 }
 .ag-fireflies_item:nth-child(147) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-147;
 	animation-name: an-move-frames-147;
 	-webkit-animation-duration: 30202ms;
@@ -5902,8 +5914,8 @@ figcaption {
 	animation-delay: 1377ms;
 }
 .ag-fireflies_item:nth-child(148) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-148;
 	animation-name: an-move-frames-148;
 	-webkit-animation-duration: 35863ms;
@@ -5936,8 +5948,8 @@ figcaption {
 	animation-delay: 617ms;
 }
 .ag-fireflies_item:nth-child(149) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-149;
 	animation-name: an-move-frames-149;
 	-webkit-animation-duration: 29760ms;
@@ -5970,8 +5982,8 @@ figcaption {
 	animation-delay: 2745ms;
 }
 .ag-fireflies_item:nth-child(150) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-150;
 	animation-name: an-move-frames-150;
 	-webkit-animation-duration: 28892ms;
@@ -6004,8 +6016,8 @@ figcaption {
 	animation-delay: 2530ms;
 }
 .ag-fireflies_item:nth-child(151) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-151;
 	animation-name: an-move-frames-151;
 	-webkit-animation-duration: 33297ms;
@@ -6038,8 +6050,8 @@ figcaption {
 	animation-delay: 1054ms;
 }
 .ag-fireflies_item:nth-child(152) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-152;
 	animation-name: an-move-frames-152;
 	-webkit-animation-duration: 28981ms;
@@ -6072,8 +6084,8 @@ figcaption {
 	animation-delay: 1751ms;
 }
 .ag-fireflies_item:nth-child(153) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-153;
 	animation-name: an-move-frames-153;
 	-webkit-animation-duration: 34323ms;
@@ -6106,8 +6118,8 @@ figcaption {
 	animation-delay: 1290ms;
 }
 .ag-fireflies_item:nth-child(154) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-154;
 	animation-name: an-move-frames-154;
 	-webkit-animation-duration: 31955ms;
@@ -6140,8 +6152,8 @@ figcaption {
 	animation-delay: 3942ms;
 }
 .ag-fireflies_item:nth-child(155) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-155;
 	animation-name: an-move-frames-155;
 	-webkit-animation-duration: 29838ms;
@@ -6174,8 +6186,8 @@ figcaption {
 	animation-delay: 2741ms;
 }
 .ag-fireflies_item:nth-child(156) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-156;
 	animation-name: an-move-frames-156;
 	-webkit-animation-duration: 34439ms;
@@ -6208,8 +6220,8 @@ figcaption {
 	animation-delay: 898ms;
 }
 .ag-fireflies_item:nth-child(157) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-157;
 	animation-name: an-move-frames-157;
 	-webkit-animation-duration: 29825ms;
@@ -6242,8 +6254,8 @@ figcaption {
 	animation-delay: 2343ms;
 }
 .ag-fireflies_item:nth-child(158) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-158;
 	animation-name: an-move-frames-158;
 	-webkit-animation-duration: 32507ms;
@@ -6276,8 +6288,8 @@ figcaption {
 	animation-delay: 1506ms;
 }
 .ag-fireflies_item:nth-child(159) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-159;
 	animation-name: an-move-frames-159;
 	-webkit-animation-duration: 31423ms;
@@ -6310,8 +6322,8 @@ figcaption {
 	animation-delay: 401ms;
 }
 .ag-fireflies_item:nth-child(160) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-160;
 	animation-name: an-move-frames-160;
 	-webkit-animation-duration: 35209ms;
@@ -6344,8 +6356,8 @@ figcaption {
 	animation-delay: 2884ms;
 }
 .ag-fireflies_item:nth-child(161) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-161;
 	animation-name: an-move-frames-161;
 	-webkit-animation-duration: 35392ms;
@@ -6378,8 +6390,8 @@ figcaption {
 	animation-delay: 593ms;
 }
 .ag-fireflies_item:nth-child(162) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-162;
 	animation-name: an-move-frames-162;
 	-webkit-animation-duration: 28689ms;
@@ -6412,8 +6424,8 @@ figcaption {
 	animation-delay: 1367ms;
 }
 .ag-fireflies_item:nth-child(163) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-163;
 	animation-name: an-move-frames-163;
 	-webkit-animation-duration: 30864ms;
@@ -6446,8 +6458,8 @@ figcaption {
 	animation-delay: 1316ms;
 }
 .ag-fireflies_item:nth-child(164) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-164;
 	animation-name: an-move-frames-164;
 	-webkit-animation-duration: 31279ms;
@@ -6480,8 +6492,8 @@ figcaption {
 	animation-delay: 630ms;
 }
 .ag-fireflies_item:nth-child(165) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-165;
 	animation-name: an-move-frames-165;
 	-webkit-animation-duration: 28683ms;
@@ -6514,8 +6526,8 @@ figcaption {
 	animation-delay: 2859ms;
 }
 .ag-fireflies_item:nth-child(166) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-166;
 	animation-name: an-move-frames-166;
 	-webkit-animation-duration: 36532ms;
@@ -6548,8 +6560,8 @@ figcaption {
 	animation-delay: 2797ms;
 }
 .ag-fireflies_item:nth-child(167) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-167;
 	animation-name: an-move-frames-167;
 	-webkit-animation-duration: 28213ms;
@@ -6582,8 +6594,8 @@ figcaption {
 	animation-delay: 3732ms;
 }
 .ag-fireflies_item:nth-child(168) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-168;
 	animation-name: an-move-frames-168;
 	-webkit-animation-duration: 33136ms;
@@ -6616,8 +6628,8 @@ figcaption {
 	animation-delay: 2235ms;
 }
 .ag-fireflies_item:nth-child(169) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-169;
 	animation-name: an-move-frames-169;
 	-webkit-animation-duration: 30211ms;
@@ -6650,8 +6662,8 @@ figcaption {
 	animation-delay: 1459ms;
 }
 .ag-fireflies_item:nth-child(170) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-170;
 	animation-name: an-move-frames-170;
 	-webkit-animation-duration: 31126ms;
@@ -6684,8 +6696,8 @@ figcaption {
 	animation-delay: 2995ms;
 }
 .ag-fireflies_item:nth-child(171) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-171;
 	animation-name: an-move-frames-171;
 	-webkit-animation-duration: 33058ms;
@@ -6718,8 +6730,8 @@ figcaption {
 	animation-delay: 2400ms;
 }
 .ag-fireflies_item:nth-child(172) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-172;
 	animation-name: an-move-frames-172;
 	-webkit-animation-duration: 32437ms;
@@ -6752,8 +6764,8 @@ figcaption {
 	animation-delay: 1818ms;
 }
 .ag-fireflies_item:nth-child(173) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-173;
 	animation-name: an-move-frames-173;
 	-webkit-animation-duration: 33257ms;
@@ -6786,8 +6798,8 @@ figcaption {
 	animation-delay: 2507ms;
 }
 .ag-fireflies_item:nth-child(174) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-174;
 	animation-name: an-move-frames-174;
 	-webkit-animation-duration: 35562ms;
@@ -6820,8 +6832,8 @@ figcaption {
 	animation-delay: 2242ms;
 }
 .ag-fireflies_item:nth-child(175) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-175;
 	animation-name: an-move-frames-175;
 	-webkit-animation-duration: 28292ms;
@@ -6854,8 +6866,8 @@ figcaption {
 	animation-delay: 536ms;
 }
 .ag-fireflies_item:nth-child(176) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-176;
 	animation-name: an-move-frames-176;
 	-webkit-animation-duration: 31436ms;
@@ -6888,8 +6900,8 @@ figcaption {
 	animation-delay: 1307ms;
 }
 .ag-fireflies_item:nth-child(177) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-177;
 	animation-name: an-move-frames-177;
 	-webkit-animation-duration: 32155ms;
@@ -6922,8 +6934,8 @@ figcaption {
 	animation-delay: 2174ms;
 }
 .ag-fireflies_item:nth-child(178) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-178;
 	animation-name: an-move-frames-178;
 	-webkit-animation-duration: 33620ms;
@@ -6956,8 +6968,8 @@ figcaption {
 	animation-delay: 178ms;
 }
 .ag-fireflies_item:nth-child(179) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-179;
 	animation-name: an-move-frames-179;
 	-webkit-animation-duration: 29547ms;
@@ -6990,8 +7002,8 @@ figcaption {
 	animation-delay: 190ms;
 }
 .ag-fireflies_item:nth-child(180) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-180;
 	animation-name: an-move-frames-180;
 	-webkit-animation-duration: 34661ms;
@@ -7024,8 +7036,8 @@ figcaption {
 	animation-delay: 682ms;
 }
 .ag-fireflies_item:nth-child(181) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-181;
 	animation-name: an-move-frames-181;
 	-webkit-animation-duration: 36982ms;
@@ -7058,8 +7070,8 @@ figcaption {
 	animation-delay: 2412ms;
 }
 .ag-fireflies_item:nth-child(182) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-182;
 	animation-name: an-move-frames-182;
 	-webkit-animation-duration: 35560ms;
@@ -7092,8 +7104,8 @@ figcaption {
 	animation-delay: 3286ms;
 }
 .ag-fireflies_item:nth-child(183) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-183;
 	animation-name: an-move-frames-183;
 	-webkit-animation-duration: 31164ms;
@@ -7126,8 +7138,8 @@ figcaption {
 	animation-delay: 2459ms;
 }
 .ag-fireflies_item:nth-child(184) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-184;
 	animation-name: an-move-frames-184;
 	-webkit-animation-duration: 28120ms;
@@ -7160,8 +7172,8 @@ figcaption {
 	animation-delay: 150ms;
 }
 .ag-fireflies_item:nth-child(185) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-185;
 	animation-name: an-move-frames-185;
 	-webkit-animation-duration: 31552ms;
@@ -7194,8 +7206,8 @@ figcaption {
 	animation-delay: 2178ms;
 }
 .ag-fireflies_item:nth-child(186) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-186;
 	animation-name: an-move-frames-186;
 	-webkit-animation-duration: 32328ms;
@@ -7228,8 +7240,8 @@ figcaption {
 	animation-delay: 3928ms;
 }
 .ag-fireflies_item:nth-child(187) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-187;
 	animation-name: an-move-frames-187;
 	-webkit-animation-duration: 29586ms;
@@ -7262,8 +7274,8 @@ figcaption {
 	animation-delay: 2347ms;
 }
 .ag-fireflies_item:nth-child(188) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-188;
 	animation-name: an-move-frames-188;
 	-webkit-animation-duration: 34939ms;
@@ -7296,8 +7308,8 @@ figcaption {
 	animation-delay: 1308ms;
 }
 .ag-fireflies_item:nth-child(189) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-189;
 	animation-name: an-move-frames-189;
 	-webkit-animation-duration: 35559ms;
@@ -7330,8 +7342,8 @@ figcaption {
 	animation-delay: 1134ms;
 }
 .ag-fireflies_item:nth-child(190) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-190;
 	animation-name: an-move-frames-190;
 	-webkit-animation-duration: 30405ms;
@@ -7364,8 +7376,8 @@ figcaption {
 	animation-delay: 3171ms;
 }
 .ag-fireflies_item:nth-child(191) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-191;
 	animation-name: an-move-frames-191;
 	-webkit-animation-duration: 29458ms;
@@ -7398,8 +7410,8 @@ figcaption {
 	animation-delay: 35ms;
 }
 .ag-fireflies_item:nth-child(192) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-192;
 	animation-name: an-move-frames-192;
 	-webkit-animation-duration: 32433ms;
@@ -7432,8 +7444,8 @@ figcaption {
 	animation-delay: 3799ms;
 }
 .ag-fireflies_item:nth-child(193) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-193;
 	animation-name: an-move-frames-193;
 	-webkit-animation-duration: 36338ms;
@@ -7466,8 +7478,8 @@ figcaption {
 	animation-delay: 788ms;
 }
 .ag-fireflies_item:nth-child(194) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-194;
 	animation-name: an-move-frames-194;
 	-webkit-animation-duration: 28999ms;
@@ -7500,8 +7512,8 @@ figcaption {
 	animation-delay: 1203ms;
 }
 .ag-fireflies_item:nth-child(195) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-195;
 	animation-name: an-move-frames-195;
 	-webkit-animation-duration: 30282ms;
@@ -7534,8 +7546,8 @@ figcaption {
 	animation-delay: 320ms;
 }
 .ag-fireflies_item:nth-child(196) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-196;
 	animation-name: an-move-frames-196;
 	-webkit-animation-duration: 30847ms;
@@ -7568,8 +7580,8 @@ figcaption {
 	animation-delay: 2396ms;
 }
 .ag-fireflies_item:nth-child(197) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-197;
 	animation-name: an-move-frames-197;
 	-webkit-animation-duration: 29463ms;
@@ -7602,8 +7614,8 @@ figcaption {
 	animation-delay: 446ms;
 }
 .ag-fireflies_item:nth-child(198) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-198;
 	animation-name: an-move-frames-198;
 	-webkit-animation-duration: 29463ms;
@@ -7636,8 +7648,8 @@ figcaption {
 	animation-delay: 455ms;
 }
 .ag-fireflies_item:nth-child(199) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-199;
 	animation-name: an-move-frames-199;
 	-webkit-animation-duration: 33860ms;
@@ -7670,8 +7682,8 @@ figcaption {
 	animation-delay: 2695ms;
 }
 .ag-fireflies_item:nth-child(200) {
-	width: 2px;
-	height: 2px;
+	width: 1px;
+	height: 1px;
 	-webkit-animation-name: an-move-frames-200;
 	animation-name: an-move-frames-200;
 	-webkit-animation-duration: 29702ms;
@@ -7741,7 +7753,7 @@ figcaption {
 		transform: scale3d(0.4, 0.4, 1);
 	}
 }
-@media only screen and (max-width: 762px) {
+@media only screen and (max-width: 761px) {
 	.ag-format-container {
 		width: 96%;
 	}
@@ -7750,12 +7762,12 @@ figcaption {
 }
 @media only screen and (max-width: 479px) {
 }
-@media (min-width: 762px) and (max-width: 979px) {
+@media (min-width: 761px) and (max-width: 979px) {
 	.ag-format-container {
 		width: 750px;
 	}
 }
-@media (min-width: 980px) and (max-width: 1162px) {
+@media (min-width: 980px) and (max-width: 1161px) {
 	.ag-format-container {
 		width: 960px;
 	}
@@ -7785,124 +7797,8 @@ figcaption {
 	border-radius: var(--radius-3);
 	box-shadow: var(--shadow-4);
 }
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
-.work-exp {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	font-family: "Roboto", sans-serif;
-	background:transparent;
-	scrollbar-color: #ef5350 #ffe;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	font-size: 0.9rem;
-	color: #fff;
-}
-.work-exp > ul {
-	list-style: none;
-	width: min(90vw, 51rem);
-	max-width: 51rem;
-	display: flex;
-	overflow-x: auto;
-	overflow-y: hidden;
-	padding-bottom: 2rem;
-}
-.work-exp > ul > li {
-	flex: 0 0 45vw;
-	max-width: 18rem;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	left: 0;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	height: 26rem;
-}
-.work-exp > ul > li > span {
-	position: relative;
-	right: 14em;
-	display: block;
-	padding: 0.75em;
-	height: 100%;
-	text-align: center;
-}
-.work-exp > ul > li::before {
-	content: "";
-	position: relative;
-	transform: translate(0%, -50%);
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(to right, #f44336cc 2%, transparent 60%);
-	z-index: -1;
-}
-.work-exp > ul > li > img {
-	display: block;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	position: relative;
-	top: 50%;
-	left: 0;
-	transform: translate(0%, -50%);
-	z-index: -2;
-}
-/* Media query for screens with minimum width of 53rem */
-@media (min-width: 53rem) {
-	.work-exp > ul > li:nth-child(1) {
-		left: 0;
-	}
-	.work-exp > ul > li:nth-child(2) {
-		left: 2.2rem;
-	}
-	.work-exp > ul > li:nth-child(3) {
-		left: 4.4rem;
-	}
-	.work-exp > ul > li:nth-child(4) {
-		left: 6.6rem;
-	}
-	.work-exp > ul > li:nth-child(5) {
-		left: 8.8rem;
-	}
-	.work-exp > ul > li:nth-child(6) {
-		left: 11rem;
-	}
-	.work-exp > ul > li:nth-child(7) {
-		left: 13.2rem;
-	}
-	.work-exp > ul > li:nth-child(8) {
-		left: 15.4rem;
-	}
-	.work-exp > ul > li:nth-child(9) {
-		left: 17.6rem;
-	}
-	.work-exp > ul > li:nth-child(10) {
-		left: 19.8rem;
-	}
-	.work-exp > ul > li:nth-child(11) {
-		left: 22rem;
-	}
-	.work-exp > ul > li:nth-child(12) {
-		left: 24.2rem;
-	}
-	.work-exp > ul > li:nth-child(13) {
-		left: 26.4rem;
-	}
-	.work-exp > ul > li:nth-child(14) {
-		left: 28.6rem;
-	}
-	.work-exp > ul > li:nth-child(15) {
-		left: 30.8rem;
-	}
-	.work-exp > ul > li:nth-child(16) {
-		left: 33rem;
-	}
-}
 .workexperience {
-	background-image: url("https://images.pexels.com/photos/2163950/pexels-photo-2163950.jpeg?auto=compress&cs=tinysrgb&w=600");
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: #410243;
 }
 .expern {
 	position: relative;
@@ -7911,4 +7807,567 @@ figcaption {
 	width: 39%;
 	font-size: 1.5em;
 	left: 35%;
+}
+.cont-edu {
+	position: relative;
+	left: -2.7rem;
+	text-align: left;
+}
+.educatione {
+	text-align: center;
+	height: auto;
+}
+.row-edu {
+	color: #fff;
+	background-color: #000;
+	margin: 2em;
+	width: 100%;
+	border-radius: 2%;
+}
+.col-edu {
+	/* height: 15rem; */
+	width: 100%;
+	text-align: left;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+@property --angle {
+	syntax: "<angle>";
+	initial-value: 90deg;
+	inherits: true;
+}
+@property --gradX {
+	syntax: "<percentage>";
+	initial-value: 50%;
+	inherits: true;
+}
+@property --gradY {
+	syntax: "<percentage>";
+	initial-value: 0%;
+	inherits: true;
+}
+:root {
+	--d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgba(168, 239, 255, 1);
+	--c2: rgba(168, 239, 255, 0.1);
+}
+.wrappere {
+	min-width: min(40rem, 100%);
+}
+.boxe {
+	font-size: 2em;
+	margin: max(1rem, 3vw);
+	border: 0.35rem solid;
+	padding: 2rem;
+	border-image: conic-gradient(
+			from var(--angle),
+			var(--c2),
+			var(--c1) 0.1turn,
+			var(--c1) 0.15turn,
+			var(--c2) 0.25turn
+		)
+		30;
+	animation: borderRotate var(--d) linear infinite forwards;
+}
+.box:nth-child(2) {
+	border-image: radial-gradient(
+			ellipse at var(--gradX) var(--gradY),
+			var(--c1),
+			var(--c1) 10%,
+			var(--c2) 40%
+		)
+		30;
+	animation: borderRadial var(--d) linear infinite forwards;
+}
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	html {
+		font-size: 0.9rem;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	body {
+		padding: 0;
+	}
+}
+.containerw {
+	position: relative;
+	overflow: hidden;
+	border-radius: 5rem;
+}
+@media only screen and (max-width: 1000px) {
+	.containerw {
+		border-radius: 0;
+	}
+}
+.slider {
+	display: flex;
+	width: 500%;
+	height: 55rem;
+	transition: all 0.25s ease-in;
+	transform: translateX(0);
+}
+@media only screen and (max-width: 1000px) {
+	.slider {
+		height: 100vh;
+	}
+}
+.slider .box {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+@media only screen and (max-width: 650px) {
+	.slider .box {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(2, 1fr);
+	}
+}
+.slider .box .bg {
+	padding: 2rem;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 55%;
+	transform: skewX(7deg);
+	position: relative;
+	height: 100%;
+	left: -10%;
+	padding-left: 20rem;
+	transform-origin: 0 100%;
+}
+@media only screen and (max-width: 800px) {
+	.slider .box .bg {
+		width: 65%;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.slider .box .bg {
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		height: 54%;
+		transform: skewX(0deg);
+	}
+}
+.slider .box .bg::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	top: 0;
+	background-color: inherit;
+	pointer-events: none;
+	transform: skewX(10deg);
+}
+@media only screen and (max-width: 650px) {
+	.slider .box .bg::before {
+		width: 120%;
+		bottom: 0;
+		transform: skewX(0deg);
+	}
+}
+.slider .box .details {
+	padding: 5rem;
+	padding-left: 10rem;
+	z-index: 100;
+	grid-column: 1 / span 1;
+	grid-row: 1/-1;
+}
+@media only screen and (max-width: 650px) {
+	.slider .box .details {
+		grid-row: 2 / span 1;
+		grid-column: 1/-1;
+		text-align: center;
+		padding: 2rem;
+		transform: translateY(-9rem);
+	}
+}
+.slider .box .details h1 {
+	font-size: 3.5rem;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
+	color: #c2aaaa;
+}
+.slider .box .details .work-exp-det {
+	display: inline-block;
+	font-size: 1.3rem;
+	color: #b5b4b4;
+	margin-bottom: 2rem;
+	margin-right: 5rem;
+}
+@media only screen and (max-width: 800px) {
+	.slider .box .details .work-exp-det {
+		margin-right: 0;
+	}
+}
+.slider .box .details button {
+	padding: 1rem 3rem;
+	color: #fff;
+	border-radius: 2rem;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.slider .box .details button:hover {
+	opacity: 0.8;
+}
+.slider .box .details button:focus {
+	outline: none;
+	border: none;
+}
+.slider .box1 {
+	background-color: #500033;
+}
+.slider .box1 .illustration .inner {
+	background-color: #ff0077;
+}
+.slider .box1 .illustration .inner::after,
+.slider .box1 .illustration .inner::before {
+	background-color: rgba(255, 0, 119, 0.4);
+}
+.slider .box1 button {
+	background-color: #ff0077;
+}
+.slider .box2 {
+	background-color: #000050;
+}
+.slider .box2 .illustration .inner {
+	background-color: #0033ff;
+}
+.slider .box2 .illustration .inner::after,
+.slider .box2 .illustration .inner::before {
+	background-color: rgba(0, 51, 255, 0.4);
+}
+.slider .box2 button {
+	background-color: #0033ff;
+}
+.slider .box3 {
+	background-color: #00501d;
+}
+.slider .box3 .illustration .inner {
+	background-color: #00ff44;
+}
+.slider .box3 .illustration .inner::after,
+.slider .box3 .illustration .inner::before {
+	background-color: rgba(0, 255, 68, 0.4);
+}
+.slider .box3 button {
+	background-color: #00ff44;
+}
+.slider .box4 {
+	background-color: #554d00;
+}
+.slider .box4 .illustration .inner {
+	background-color: #ff4e00;
+}
+.slider .box4 .illustration .inner::after,
+.slider .box4 .illustration .inner::before {
+	background-color: rgba(255, 78, 0, 0.4);
+}
+.slider .box4 button {
+	background-color: #ff4e00;
+}
+.slider .box5 {
+	background-color: #300050;
+}
+.slider .box5 .illustration .inner {
+	background-color: #8000ff;
+}
+.slider .box5 .illustration .inner::after,
+.slider .box5 .illustration .inner::before {
+	background-color: rgba(128, 0, 255, 0.4);
+}
+.slider .box5 button {
+	background-color: #8000ff;
+}
+.slider .illustration {
+	grid-column: 2/-1;
+	grid-row: 1/-1;
+	justify-self: center;
+}
+@media only screen and (max-width: 650px) {
+	.slider .illustration {
+		grid-row: 1 / span 1;
+		grid-column: 1/-1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.slider .illustration div {
+	height: 25rem;
+	width: 18rem;
+	border-radius: 3rem;
+	background-color: #ff0077;
+	position: relative;
+	transform: skewX(-10deg);
+}
+@media only screen and (max-width: 800px) {
+	.slider .illustration div {
+		height: 20rem;
+		width: 15rem;
+	}
+}
+.slider .illustration div::after,
+.slider .illustration div::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border-radius: 3rem;
+	top: 0;
+	left: 0;
+}
+.slider .illustration div::after {
+	transform: translate(4rem, -1rem);
+}
+.slider .illustration div::before {
+	transform: translate(2rem, -2rem);
+}
+.prev,
+.next,
+.trail {
+	z-index: 10000;
+	position: absolute;
+}
+.prev,
+.next {
+	width: 4rem;
+	cursor: pointer;
+	opacity: 0.2;
+	transition: all 0.3s ease;
+}
+@media only screen and (max-width: 650px) {
+	.prev,
+	.next {
+		display: none;
+	}
+}
+.prev:hover,
+.next:hover {
+	opacity: 1;
+}
+.prev {
+	top: 50%;
+	left: 2%;
+	transform: translateY(-50%);
+}
+.next {
+	top: 50%;
+	right: 2%;
+	transform: translateY(-50%);
+}
+.trail {
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+@media only screen and (max-width: 650px) {
+	.trail {
+		width: 90%;
+		bottom: 13%;
+	}
+}
+.trail div {
+	padding: 2rem;
+	border-top: 3px solid #fff;
+	cursor: pointer;
+	opacity: 0.3;
+	transition: all 0.3s ease;
+}
+.trail div:hover {
+	opacity: 0.6;
+}
+@media only screen and (max-width: 650px) {
+	.trail div {
+		padding: 1rem;
+	}
+}
+.active {
+	opacity: 1 !important;
+}
+#Exper {
+	color: #fff;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 2rem;
+	background-color: #410243;
+	padding-bottom: 2rem;
+}
+#Exper {
+	font-family: "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 27px #ba3428;
+	animation: glowing 2s infinite;
+}
+@keyframes glowing {
+	0% {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ba3428;
+	}
+	50% {
+		text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 35px #fff, 0 0 45px #ba3428;
+	}
+	100% {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ba3428;
+	}
+}
+.scrollport-p {
+	overflow-x: auto;
+	overscroll-behavior-x: contain;
+	display: flex;
+	gap: var(--size-10);
+	align-items: start;
+	padding: var(--size-10);
+}
+.scrollport-p > div {
+	background-color: #000;
+	block-size: var(--size-15);
+	aspect-ratio: var(--ratio-square);
+	color: #dfd7bf;
+	font-size: 2rem;
+	border-radius: var(--radius-3);
+	box-shadow: var(--shadow-4);
+	padding: 3rem;
+}
+.personal {
+	background: linear-gradient(
+		to right,
+		rgb(249, 180, 100),
+		rgb(118, 199, 80),
+		rgb(215, 60, 140),
+		rgba(240, 36, 36, 0)
+	);
+	display: grid;
+	place-content: center;
+}
+.exper-person {
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 3rem;
+	font-weight: bold;
+}
+.exper-person {
+	font-family: "Source Sans Pro", sans-serif;
+	color: #2024e2;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ba3428; /* Adjust the glow color and spread */
+	animation: glowing 2s infinite;
+}
+/* Reset default margin and padding for the footer and its elements */
+footer.portfolio-footer,
+footer.portfolio-footer * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.footer-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #b9b9b9;
+}
+
+.footer-section {
+	flex-basis: 30%;
+}
+.footer-section-heading {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.footer-info,
+.footer-services-list {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #666;
+	margin-bottom: 15px;
+}
+.social-icons {
+	margin-top: 10px;
+}
+.social-icon {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 24px;
+	color: #303030;
+}
+
+.footer-services-list {
+	list-style: none;
+}
+.footer-services-list li:before {
+	content: "\2022"; /* Bullet point */
+	color: #666;
+	font-size: 10px;
+	display: inline-block;
+	width: 15px;
+	margin-left: -20px;
+}
+
+.footer-bottom {
+	text-align: center;
+	background-color: #b9b9b9;
+	padding: 10px 0;
+}
+
+.footer-bottom p:first-child {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.footer-bottom p:last-child {
+	font-size: 14px;
+	background-color: #b9b9b9;
+	color: #999;
+}
+
+.social-icon:hover {
+	color: #007bff;
+}
+
+.footer-services-list li:hover {
+	color: #007bff;
+	cursor: pointer;
 }
