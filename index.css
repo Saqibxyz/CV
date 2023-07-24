@@ -7799,6 +7799,8 @@ figcaption {
 }
 .workexperience {
 	background-color: #410243;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
 }
 .expern {
 	position: relative;
@@ -8299,7 +8301,6 @@ footer.portfolio-footer * {
 	padding: 0;
 	box-sizing: border-box;
 }
-
 .footer-content {
 	display: flex;
 	flex-wrap: wrap;
@@ -8307,7 +8308,6 @@ footer.portfolio-footer * {
 	padding: 20px;
 	background-color: #b9b9b9;
 }
-
 .footer-section {
 	flex-basis: 30%;
 }
@@ -8332,7 +8332,6 @@ footer.portfolio-footer * {
 	font-size: 24px;
 	color: #303030;
 }
-
 .footer-services-list {
 	list-style: none;
 }
@@ -8344,29 +8343,24 @@ footer.portfolio-footer * {
 	width: 15px;
 	margin-left: -20px;
 }
-
 .footer-bottom {
 	text-align: center;
 	background-color: #b9b9b9;
 	padding: 10px 0;
 }
-
 .footer-bottom p:first-child {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
-
 .footer-bottom p:last-child {
 	font-size: 14px;
 	background-color: #b9b9b9;
 	color: #999;
 }
-
 .social-icon:hover {
 	color: #007bff;
 }
-
 .footer-services-list li:hover {
 	color: #007bff;
 	cursor: pointer;
