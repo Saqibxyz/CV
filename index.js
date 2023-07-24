@@ -162,3 +162,28 @@ const touchSlide = (() => {
 	};
 	slider.addEventListener("touchend", mobile);
 })();
+let touchStartPos = 0;
+let touchEndPos = 0;
+const sliderElem = document.querySelector(".slider");
+sliderElem.addEventListener("touchstart", (e) => {
+	touchStartPos = e.touches[0].clientX;
+});
+sliderElem.addEventListener("touchend", (e) => {
+	touchEndPos = e.changedTouches[0].clientX;
+	handleSwipe();
+});
+function handleSwipe() {
+	const sensitivity = 50;
+	const swipeDelta = touchEndPos - touchStartPos;
+	if (swipeDelta > sensitivity) {
+		showNextSlide();
+	} else if (swipeDelta < -sensitivity) {
+		showPreviousSlide();
+	}
+}
+function showNextSlide() {
+	console.log("Next slide");
+}
+function showPreviousSlide() {
+	console.log("Previous slide");
+}
