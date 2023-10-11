@@ -70,6 +70,3 @@ var tagCloud = TagCloud(".content", myTags, {
 	direction: 135,
 	keep: true,
 });
-var colors = ["#34A853", "#FBBC05", "#4285F4", "#7FBC00", "FFBA01", "01A6F0"];
-var random_color = colors[Math.floor(Math.random() * colors.length)];
-document.querySelector(".content").style.color = random_color;
