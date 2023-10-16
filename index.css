@@ -896,6 +896,7 @@ figcaption {
 	border-radius: 5%;
 	background: radial-gradient(ellipse, #ffffff, #e7e7e7);
 	padding-bottom: 3em;
+	letter-spacing:0.18ex;
 }
 .internal:hover {
 	background: radial-gradient(circle, #c4fbff, #bebebe);
