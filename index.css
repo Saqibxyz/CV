@@ -18,7 +18,7 @@ html {
 
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 :root {
-	--glow-color: hsl(113, 94%, 58%);
+	--glow-color: hsl(113, 91%, 64%);
 }
 *,
 *::before,
@@ -27,6 +27,7 @@ html {
 }
 .glowing-btn {
 	position: relative;
+	--glow-color:rgb(126, 247, 126);
 	color: var(--glow-color);
 	cursor: pointer;
 	padding: 0.35em 1em;
@@ -35,7 +36,7 @@ html {
 	background: none;
 	perspective: 1.7em;
 	font-family: "Raleway", sans-serif;
-	font-size: 0.8em;
+	font-size: 1.2em;
 	font-weight: 900;
 	letter-spacing: 0.2em;
 	-webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -54,7 +55,7 @@ html {
 	-moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
 		0 0 0.45em var(--glow-color);
 	text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
-	animation: text-flicker 3s linear infinite;
+	animation: text-flicker 5s linear infinite;
 }
 .faulty-letter {
 	opacity: 0.5;
@@ -175,19 +176,19 @@ html {
 }
 @keyframes border-flicker {
 	0% {
-		opacity: 0.1;
+		opacity: 0.8;
 	}
 	2% {
 		opacity: 1;
 	}
 	4% {
-		opacity: 0.1;
+		opacity: 0.8;
 	}
 	8% {
 		opacity: 1;
 	}
 	70% {
-		opacity: 0.7;
+		opacity: 0.9;
 	}
 	100% {
 		opacity: 1;
@@ -245,7 +246,7 @@ nav {
 	font-size: 11px;
 	font-weight: 500;
 	transition: 0.2s all ease-in-out;
-	color: #67ff45;
+	color: #53ff2c;
 }
 .menu:hover a {
 	opacity: 0.3;
@@ -589,7 +590,7 @@ figcaption {
 	font-size: 1em;
 }
 .h-about {
-	animation: flicker 3s infinite alternate;
+	animation: flicker 4s infinite alternate;
 	color: #e312c4;
 	text-align: center;
 	padding-bottom: 1em;
@@ -925,7 +926,7 @@ figcaption {
 .ag-fireflies_box {
 	overflow: hidden;
 	position: relative;
-background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background: #0e0000;
 	background-size: 400% 400%;
 	animation: gradients 5s ease infinite;
 	height: auto;
@@ -7895,6 +7896,7 @@ background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 .wrappere {
 	min-width: min(40rem, 100%);
+	border: solid 1px #242424;
 }
 .boxe {
 	font-size: 2em;
@@ -8002,13 +8004,7 @@ background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	padding: 3rem;
 }
 .personal {
-	background: linear-gradient(
-		to right,
-		rgb(255, 255, 255),
-		rgb(194, 252, 167),
-		rgb(130, 255, 126),
-		rgb(123, 241, 87)
-	);
+	background-color: #bcc7f7;
 	display: grid;
 	place-content: center;
 }
@@ -8124,7 +8120,9 @@ footer.portfolio-footer * {
   overflow-y: hidden; 
 }
 
-
+.resume{
+	color:rgb(238, 124, 228);
+}
 .card-wexp {
   text-align: center;
   margin: 0 auto;
